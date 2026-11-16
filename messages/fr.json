@@ -1,0 +1,36 @@
+
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "faqs": "FAQ",
+    "reservations": "Faire une demande",
+    "accommodations": "Hébergements",
+    "careers": "Carrières",
+    "experience": "Expérience",
+    "gallery": "Galerie",
+    "legal-notice": "Mentions légales",
+    "site-usage": "Utilisation du site",
+    "privacy-notice": "Politique de confidentialité"
+  },
+  "Buttons": {
+    "book-now": "Réserver maintenant",
+    "reversations": "Réservations",
+    "take-a-tour": "Visiter"
+  },
+  "Home": {
+    "hero": {
+      "headline": "Façonné par le lieu.",
+      "description": "Tout ici vient d'ici.",
+      "action": "Réserver maintenant",
+      "sub-action": "Visiter"
+    }
+  },
+  "Not-found": {
+    "headline": "PAGE INTROUVABLE",
+    "title": "Cette page n'existe pas ici",
+    "text": "La page que vous recherchez a peut-être été déplacée ou n'est plus disponible.",
+    "return-link": "Retour à l'accueil"
+  }
+}

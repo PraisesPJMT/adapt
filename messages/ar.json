@@ -1,0 +1,36 @@
+
+{
+  "Navigation": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "faqs": "الأسئلة الشائعة",
+    "reservations": "إرسال استفسار",
+    "accommodations": "أماكن الإقامة",
+    "careers": "الوظائف",
+    "experience": "التجربة",
+    "gallery": "معرض الصور",
+    "legal-notice": "إشعار قانوني",
+    "site-usage": "استخدام الموقع",
+    "privacy-notice": "سياسة الخصوصية"
+  },
+  "Buttons": {
+    "book-now": "احجز الآن",
+    "reversations": "الحجوزات",
+    "take-a-tour": "قم بجولة"
+  },
+  "Home": {
+    "hero": {
+      "headline": "صاغه المكان.",
+      "description": "كل شيء هنا يأتي من هنا.",
+      "action": "احجز الآن",
+      "sub-action": "قم بجولة"
+    }
+  },
+  "Not-found": {
+    "headline": "الصفحة غير موجودة",
+    "title": "هذه الصفحة غير موجودة هنا",
+    "text": "ربما تم نقل الصفحة التي تبحث عنها أو لم تعد متاحة.",
+    "return-link": "العودة إلى الصفحة الرئيسية"
+  }
+}

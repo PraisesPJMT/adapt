@@ -1,0 +1,36 @@
+
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "Over ons",
+    "contact": "Contact",
+    "faqs": "Veelgestelde vragen",
+    "reservations": "Een aanvraag doen",
+    "accommodations": "Accommodaties",
+    "careers": "Carrières",
+    "experience": "Ervaring",
+    "gallery": "Galerij",
+    "legal-notice": "Juridische kennisgeving",
+    "site-usage": "Websitegebruik",
+    "privacy-notice": "Privacyverklaring"
+  },
+  "Buttons": {
+    "book-now": "Boek nu",
+    "reversations": "Reserveringen",
+    "take-a-tour": "Bekijk de rondleiding"
+  },
+  "Home": {
+    "hero": {
+      "headline": "Gevormd door de plek.",
+      "description": "Alles hier komt hiervandaan.",
+      "action": "Boek nu",
+      "sub-action": "Bekijk de rondleiding"
+    }
+  },
+  "Not-found": {
+    "headline": "PAGINA NIET GEVONDEN",
+    "title": "Deze pagina bestaat hier niet",
+    "text": "De pagina die u zoekt is mogelijk verplaatst of niet langer beschikbaar.",
+    "return-link": "Terug naar home"
+  }
+}

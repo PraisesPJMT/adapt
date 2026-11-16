@@ -1,0 +1,36 @@
+
+{
+  "Navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "faqs": "常见问题",
+    "reservations": "提交咨询",
+    "accommodations": "住宿",
+    "careers": "职业机会",
+    "experience": "体验",
+    "gallery": "图库",
+    "legal-notice": "法律声明",
+    "site-usage": "网站使用条款",
+    "privacy-notice": "隐私政策"
+  },
+  "Buttons": {
+    "book-now": "立即预订",
+    "reversations": "预订",
+    "take-a-tour": "探索之旅"
+  },
+  "Home": {
+    "hero": {
+      "headline": "因这片土地而塑造。",
+      "description": "这里的一切都源自这里。",
+      "action": "立即预订",
+      "sub-action": "探索之旅"
+    }
+  },
+  "Not-found": {
+    "headline": "页面未找到",
+    "title": "此页面不存在",
+    "text": "您正在查找的页面可能已被移动或不再提供。",
+    "return-link": "返回首页"
+  }
+}

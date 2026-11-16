@@ -1,0 +1,35 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "faqs": "FAQs",
+    "reservations": "Make an enquiry",
+    "accommodations": "Accomodations",
+    "careers": "Careers",
+    "experience": "Experience",
+    "gallery": "Gallery",
+    "legal-notice": "Legal Notice",
+    "site-usage": "Site Usage",
+    "privacy-notice": "Privacy Notice"
+  },
+  "Buttons": {
+    "book-now": "Book Now",
+    "reversations": "reservations",
+    "take-a-tour": "Take a tour"
+  },
+  "Home": {
+    "hero": {
+      "headline": "Shaped by the place.",
+      "description": "Everything here comes from here.",
+      "action": "Book Now",
+      "sub-action": "Take a tour"
+    }
+  },
+  "Not-found": {
+    "headline": "PAGE NOT FOUND",
+    "title": "This page is not here",
+    "text": "This page you are looking for may have moved or may no longer be available",
+    "return-link": "Return home"
+  }
+}

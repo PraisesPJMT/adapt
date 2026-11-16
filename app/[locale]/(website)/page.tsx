@@ -1,12 +1,17 @@
+
+import { useTranslations } from "next-intl";
+
 export default function Home() {
+  const t = useTranslations("Home");
+
   return (
     <main>
       <h1 className="font-display text-5xl text-mangrove">
-        Shaped by the place.
+        {t("hero.headline")}
       </h1>
 
       <p className="font-sans text-mangrove">
-        Everything here comes from here.
+        {t("hero.description")}
       </p>
 
       <section className="bg-mangrove text-shell">
@@ -16,7 +21,7 @@ export default function Home() {
       </section>
 
       <button className="bg-mangrove text-shell px-6 py-3">
-        Explore our vision
+        {t("hero.action")}
       </button>
     </main>
   );

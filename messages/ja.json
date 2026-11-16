@@ -1,0 +1,36 @@
+
+{
+  "Navigation": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "faqs": "よくある質問",
+    "reservations": "お問い合わせ・ご予約",
+    "accommodations": "宿泊施設",
+    "careers": "採用情報",
+    "experience": "体験",
+    "gallery": "ギャラリー",
+    "legal-notice": "法的通知",
+    "site-usage": "サイトのご利用について",
+    "privacy-notice": "プライバシーポリシー"
+  },
+  "Buttons": {
+    "book-now": "今すぐ予約",
+    "reversations": "ご予約",
+    "take-a-tour": "ツアーを見る"
+  },
+  "Home": {
+    "hero": {
+      "headline": "この土地が形づくる。",
+      "description": "ここにあるすべては、この場所から生まれています。",
+      "action": "今すぐ予約",
+      "sub-action": "ツアーを見る"
+    }
+  },
+  "Not-found": {
+    "headline": "ページが見つかりません",
+    "title": "お探しのページはここにはありません",
+    "text": "お探しのページは移動されたか、現在ご利用いただけない可能性があります。",
+    "return-link": "ホームに戻る"
+  }
+}
