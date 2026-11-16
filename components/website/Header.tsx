@@ -56,7 +56,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 md:px-6 md:pt-6">
+      <header className="fixed inset-x-0 top-0 z-50 px-0 pt-0 md:px-6 md:pt-6">
         <div className="mx-auto max-w-7xl">
 
           {/* Main navigation */}
