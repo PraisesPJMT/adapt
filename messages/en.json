@@ -21,10 +21,14 @@
     "links2": "Company",
     "contact-title":"Contact Us"
   },
+  "Header": {
+    "punchline": "Discover something different.",
+    "mobile-title": "Explore"
+  },
   "Buttons": {
     "book-now": "Book Now",
     "reversations": "reservations",
-    "take-a-tour": "Take a tour"
+    "browse-rooms": "Browse Rooms"
   },
   "Home": {
     "hero": {

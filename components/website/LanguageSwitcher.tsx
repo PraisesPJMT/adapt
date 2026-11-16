@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
         });
       }}
       aria-label="Select language"
-      className="bg-transparent text-shell"
+      className="p-2 bg-transparent text-primary border border-primary/15"
     >
       {routing.locales.map((item) => (
         <option key={item} value={item} className="text-mangrove">

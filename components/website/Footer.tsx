@@ -93,7 +93,7 @@ function FooterColumn({
           >
             <Link
               href={link.href}
-              className="group relative inline-flex items-center gap-2 text-sm md:text-base"
+              className="group relative inline-flex items-center gap-2 text-sm md:text-base hover:font-bold"
             >
               <span>{translate(link.key)}</span>
 
@@ -103,7 +103,7 @@ function FooterColumn({
                   hover: { width: 18, opacity: 1 },
                 }}
                 transition={{ duration: 0.25 }}
-                className="h-px bg-current"
+                className="h-0.75 bg-current"
               />
             </Link>
           </motion.div>
