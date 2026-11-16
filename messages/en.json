@@ -13,6 +13,14 @@
     "site-usage": "Site Usage",
     "privacy-notice": "Privacy Notice"
   },
+  "Footer": {
+    "copyright": "Copyright 2026 © Adapt Resorts",
+    "punchline": "Experience the best of hospitality where you get to feel at home away from home",
+    "follow": "FOLLOW US",
+    "links1": "Quick Links",
+    "links2": "Company",
+    "contact-title":"Contact Us"
+  },
   "Buttons": {
     "book-now": "Book Now",
     "reversations": "reservations",
@@ -25,6 +33,11 @@
       "action": "Book Now",
       "sub-action": "Take a tour"
     }
+  },
+  "Contact": {
+    "address":"No. 1234 Adapt Resort Avenue, British Street, Akwa Ibon State, Nigeria",
+    "tel":"+2348012345678",
+    "mail":"contact@adapt.com"
   },
   "Not-found": {
     "headline": "PAGE NOT FOUND",

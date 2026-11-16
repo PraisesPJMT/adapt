@@ -9,10 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@iconify/react": "^6.0.4",
+    "clsx": "^2.1.1",
+    "motion": "^14.14.0",
     "next": "16.4.6",
     "next-intl": "^4.15.1",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",

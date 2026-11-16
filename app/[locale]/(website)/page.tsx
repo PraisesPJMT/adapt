@@ -5,7 +5,7 @@ export default function Home() {
   const t = useTranslations("Home");
 
   return (
-    <main>
+    <main className="h-screen">
       <h1 className="font-display text-5xl text-mangrove">
         {t("hero.headline")}
       </h1>
