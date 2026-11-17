@@ -1,3 +1,5 @@
+"use client"
+
 import { useTranslations } from "next-intl";
 
 import Wrapper from "@/components/website/Wrapper";
