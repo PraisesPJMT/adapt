@@ -1,23 +1,32 @@
 "use client"
 
+import Highlight from "@/components/website/legals/Highlight";
+import Reachout from "@/components/website/legals/Reachout";
+import Scroll,{
+  type ScrollData,
+} from "@/components/website/legals/Scroll";
+
 import { useTranslations } from "next-intl";
 
-import Wrapper from "@/components/website/Wrapper";
-import UnderConstruction from "@/components/website/UnderConstruction";
-
 const LegalNotice = () => {
-  const t = useTranslations("Navigation");
+  const legal = useTranslations("LegalNotice");
+  const footer = useTranslations("Footer");
+
+  const scrollData: ScrollData = {
+      lastUpdateLabel: legal("lastUpdateLabel"),
+      lastUpdate: legal("lastUpdate"),
+      sections: legal.raw("sections") as ScrollData["sections"],
+  };
 
   return <div className="">
-    <section className="min-h-[20svh] flex items-end">
-      <Wrapper>
-        <h1 className="font-display text-5xl text-mangrove">
-          {t("legal-notice")}
-        </h1>
-      </Wrapper>
-    </section>
+    <Highlight title={legal("title")} position="top"/>
 
-    <UnderConstruction />
+    <Scroll
+      data={scrollData}
+      followLabel={footer("follow")}
+    />
+
+    <Reachout title={legal("contact-title")} text={legal("contact-text")} />
   </div>
 }
 
