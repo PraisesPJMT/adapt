@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
+import Wrapper from "./Wrapper";
 
 const GoogleMap = () => {
   const t = useTranslations("Contact.map");
@@ -28,7 +29,7 @@ const GoogleMap = () => {
 
   return (
     <section className="bg-shell py-20 md:py-28">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <Wrapper className="">
 
         {/* Section Heading */}
         <motion.div
@@ -106,7 +107,7 @@ const GoogleMap = () => {
           </div>
         </motion.div>
 
-      </div>
+      </Wrapper>
     </section>
   );
 }

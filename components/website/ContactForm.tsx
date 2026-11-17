@@ -4,6 +4,7 @@
 import { useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
+import Wrapper from "./Wrapper";
 
 const inquiryTypes = [
   "general",
@@ -93,7 +94,7 @@ const ContactForm = () => {
 
   return (
     <section className="bg-linen py-20 md:py-28">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <Wrapper className="">
         <div className="grid grid-cols-1 gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
 
           {/* Introduction */}
@@ -282,7 +283,7 @@ const ContactForm = () => {
           </motion.div>
 
         </div>
-      </div>
+      </Wrapper>
     </section>
   );
 };
