@@ -5,32 +5,140 @@
     "about": "关于我们",
     "contact": "联系我们",
     "faqs": "常见问题",
-    "reservations": "提交咨询",
+    "reservations": "预约咨询",
     "accommodations": "住宿",
-    "careers": "职业机会",
+    "careers": "加入我们",
     "experience": "体验",
-    "gallery": "图库",
+    "gallery": "图片集",
     "legal-notice": "法律声明",
     "site-usage": "网站使用条款",
     "privacy-notice": "隐私政策"
   },
+  "Footer": {
+    "copyright": "版权所有 2026 © Adapt Resorts",
+    "punchline": "体验卓越的待客之道，在远离家乡的地方，依然感受家的温暖。",
+    "follow": "关注我们",
+    "links1": "快速链接",
+    "links2": "关于公司",
+    "contact-title": "联系我们"
+  },
+  "Header": {
+    "punchline": "探索与众不同的美好。",
+    "mobile-title": "探索"
+  },
   "Buttons": {
     "book-now": "立即预订",
-    "reversations": "预订",
-    "take-a-tour": "探索之旅"
+    "reversations": "预约咨询",
+    "browse-rooms": "浏览客房",
+    "book-room": "预订客房",
+    "contact": "联系我们",
+    "previous": "上一个",
+    "next": "下一个"
   },
   "Home": {
     "hero": {
-      "headline": "因这片土地而塑造。",
-      "description": "这里的一切都源自这里。",
+      "headline": "在我们的自然奢华度假胜地，尽享美好时光",
+      "text": "探索一处融合自然之美、舒适体验与贴心服务的静谧天地。在 Adapt，每一刻都是放松身心、重新建立内心联结的美好契机，让您在精心打造的环境中，尽情体验非凡生活的魅力。",
       "action": "立即预订",
       "sub-action": "探索之旅"
+    },
+    "about": {
+      "title": "探访我们的自然天堂，重新找回内心的宁静",
+      "text": "逃离日常的喧嚣，沉浸于自然美景、宁静氛围与卓越待客之道交织的美好世界。在 Adapt，每一个细节都经过精心设计，让您放慢脚步，亲近自然，与生命中重要的人共同创造难忘的美好回忆。"
+    },
+    "hero3": {
+      "title": "即刻开启全包式度假体验",
+      "text": "属于您的完美假期正在等待着您。在这里，尊享全包式舒适体验，感受卓越服务、精心策划的精彩活动与令人惊叹的自然风光完美交融的魅力。您只需抵达、放松身心，其余的一切都交给我们。"
+    },
+    "hero4": {
+      "title": "探索属于您的理想度假居所",
+      "text": "从精心设计的客房到尊贵私享空间，每一处住宿都围绕舒适、宁静与精致生活的细节匠心打造。",
+      "collection": "Adapt 尊享系列",
+      "room-label": "专属于您的温馨居所",
+      "from": "起价",
+      "per-night": "每晚",
+      "guests": "入住人数",
+      "beds": "床位",
+      "rooms": {
+        "premium-deluxe": "尊享豪华客房",
+        "premium-deluxe-description": "在精致优雅的空间中体验非凡舒适。每一处室内设计都经过悉心布置，配备完善的尊享设施，为您打造难以忘怀的入住体验。",
+        "premium-deluxe-price": "₦200,000",
+
+        "executive-suite": "行政套房",
+        "executive-suite-description": "入住格调非凡的行政套房，在宽敞的空间、低调的奢华与卓越的舒适体验之间，尽享完美平衡。",
+        "executive-suite-price": "₦350,000",
+
+        "presidential-villa": "总统别墅",
+        "presidential-villa-description": "探索非凡的私享度假空间，宽敞的生活区域、精致的家具陈设与极致私密的氛围，为您带来无与伦比的尊贵体验。",
+        "presidential-villa-price": "₦650,000",
+
+        "celebrity-suit": "名流套房",
+        "celebrity-suit-description": "置身于尊贵非凡的私人休憩空间，享受宽敞的居住环境、精致的家具陈设与专属私密氛围，体验真正与众不同的奢华生活。",
+        "celebrity-suit-price": "₦960,000"
+      }
+    }
+  },
+  "Contact": {
+    "address": "No. 1234 Adapt Resort Avenue, British Street, 阿夸伊博姆州，尼日利亚",
+    "tel": "+2348012345678",
+    "tel2": "+2348012345678",
+    "mail": "contact@adapt.com",
+    "mail2": "info@adapt.com",
+
+    "title": "联系我们",
+    "punchline": "无论您需要预订协助、寻求帮助，还是只想与我们交流，都欢迎通过以下方式联系我们。",
+
+    "map": {
+      "eyebrow": "寻找我们",
+      "title": "我们的所在地",
+      "description": "探索我们在尼日利亚阿夸伊博姆州这片美丽土地上的所在地。",
+      "state": "阿夸伊博姆州",
+      "country": "尼日利亚，西非",
+      "directions": "在 Google 地图中查看路线"
+    },
+
+    "form": {
+      "eyebrow": "与我们联系",
+      "title": "让我们开启一段对话。",
+      "description": "您有任何疑问、正在计划一次入住，或只是想进一步了解我们的服务？我们非常期待听到您的声音。",
+      "direct-contact": "希望直接与我们联系？",
+      "name": "您的姓名",
+      "name-placeholder": "请输入您的姓名",
+      "email": "您的电子邮箱",
+      "email-placeholder": "请输入您的邮箱地址",
+      "phone": "联系电话",
+      "phone-placeholder": "+234 ...",
+      "inquiry": "咨询类型",
+      "inquiry-placeholder": "请选择咨询类型",
+      "message": "您的留言",
+      "message-placeholder": "请告诉我们您需要什么帮助……",
+      "submit": "发送留言",
+      "sending": "正在发送……",
+      "success": "感谢您的联系！我们已收到您的留言。",
+      "error": "很抱歉，发生了一些问题，请稍后重试。",
+      "inquiry-types": {
+        "general": "一般咨询",
+        "accommodation": "住宿咨询",
+        "reservations": "预订咨询",
+        "experiences": "体验活动",
+        "partnership": "商务合作",
+        "other": "其他"
+      }
     }
   },
   "Not-found": {
     "headline": "页面未找到",
-    "title": "此页面不存在",
-    "text": "您正在查找的页面可能已被移动或不再提供。",
+    "title": "您访问的页面不存在",
+    "text": "您正在寻找的页面可能已被移动，或不再提供访问。",
     "return-link": "返回首页"
+  },
+  "UnderConstruction": {
+    "eyebrow": "美好体验，正在精心呈现",
+    "title": "此页面正在建设中",
+    "description": "我们正在用心打造一段非凡体验，一个融合自然之美、奢华享受与卓越待客之道的专属天地。全新的精彩即将与您见面。在此之前，敬请期待。",
+    "progress-label": "筹备进度",
+    "status": "正在进行中",
+    "coming-soon": "非凡体验，即将呈现",
+    "return-home": "返回首页"
   }
 }

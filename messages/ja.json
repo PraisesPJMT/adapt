@@ -4,33 +4,141 @@
     "home": "ホーム",
     "about": "私たちについて",
     "contact": "お問い合わせ",
-    "faqs": "よくある質問",
+    "faqs": "よくあるご質問",
     "reservations": "お問い合わせ・ご予約",
     "accommodations": "宿泊施設",
     "careers": "採用情報",
     "experience": "体験",
     "gallery": "ギャラリー",
     "legal-notice": "法的通知",
-    "site-usage": "サイトのご利用について",
+    "site-usage": "サイト利用規約",
     "privacy-notice": "プライバシーポリシー"
+  },
+  "Footer": {
+    "copyright": "Copyright 2026 © Adapt Resorts",
+    "punchline": "まるで自分の家にいるような心地よさ。心を込めたおもてなしで、特別なひとときをお届けします。",
+    "follow": "公式アカウントをフォロー",
+    "links1": "クイックリンク",
+    "links2": "企業情報",
+    "contact-title": "お問い合わせ"
+  },
+  "Header": {
+    "punchline": "いつもとは違う、特別な体験を。",
+    "mobile-title": "メニュー"
   },
   "Buttons": {
     "book-now": "今すぐ予約",
     "reversations": "ご予約",
-    "take-a-tour": "ツアーを見る"
+    "browse-rooms": "客室を見る",
+    "book-room": "この客室を予約",
+    "contact": "お問い合わせ",
+    "previous": "前へ",
+    "next": "次へ"
   },
   "Home": {
     "hero": {
-      "headline": "この土地が形づくる。",
-      "description": "ここにあるすべては、この場所から生まれています。",
+      "headline": "自然に包まれた、贅沢なリゾートで特別なひとときを。",
+      "text": "自然の美しさ、心地よさ、そして細やかなおもてなしが調和する特別な空間へようこそ。Adaptでは、すべての瞬間が、心を解き放ち、新たな活力を取り戻し、上質な暮らしの美しさを感じるためのひとときとなります。お客様一人ひとりのために丁寧に整えられた空間で、忘れられない体験をお楽しみください。",
       "action": "今すぐ予約",
-      "sub-action": "ツアーを見る"
+      "sub-action": "詳しく見る"
+    },
+    "about": {
+      "title": "自然の楽園を訪れ、自分らしさを取り戻すひとときを。",
+      "text": "日常の喧騒から離れ、自然の美しさと静寂、そして心を込めた上質なおもてなしに包まれるひとときをお過ごしください。Adaptでは、すべての細部にまでこだわり、自然とのつながりを感じながら、大切な人と心に残る思い出を創り出せる空間をご用意しています。"
+    },
+    "hero3": {
+      "title": "オールインクルーシブリゾートで、特別な休日を。",
+      "text": "理想の休日が、ここから始まります。卓越したおもてなし、厳選された体験、そして息をのむような美しい景色が織りなす、贅沢なオールインクルーシブステイをお楽しみください。あとは到着して、ゆったりとおくつろぎいただくだけ。すべて私たちにお任せください。"
+    },
+    "hero4": {
+      "title": "あなたにぴったりの特別な隠れ家を。",
+      "text": "細部まで丁寧に設計された客室から、特別なプライベート空間まで。快適さ、静けさ、そして上質なこだわりが息づく宿泊体験をご紹介します。",
+      "collection": "Adapt コレクション",
+      "room-label": "心からくつろげる特別な場所",
+      "from": "宿泊料金",
+      "per-night": "1泊あたり",
+      "guests": "宿泊人数",
+      "beds": "ベッド数",
+      "rooms": {
+        "premium-deluxe": "プレミアムデラックスルーム",
+        "premium-deluxe-description": "洗練されたインテリアと充実した設備が調和する、上質で快適な空間。細部にまでこだわって設計された客室で、心に残る特別なご滞在をお楽しみください。",
+        "premium-deluxe-price": "₦200,000",
+
+        "executive-suite": "エグゼクティブスイート",
+        "executive-suite-description": "ゆとりある空間、控えめで洗練された贅沢、そして格別の快適さが調和するエグゼクティブスイートで、ワンランク上のご滞在をお楽しみください。",
+        "executive-suite-price": "₦350,000",
+
+        "presidential-villa": "プレジデンシャルヴィラ",
+        "presidential-villa-description": "広々としたリビング空間、上質な家具、そして完全なプライバシーに包まれた、特別なプライベートリトリートをご体験ください。",
+        "presidential-villa-price": "₦650,000",
+
+        "celebrity-suit": "セレブリティスイート",
+        "celebrity-suit-description": "広々とした居住空間、洗練されたインテリア、そして特別なプライバシーと贅沢が調和する、格別のプライベート空間をご堪能ください。",
+        "celebrity-suit-price": "₦960,000"
+      }
+    }
+  },
+  "Contact": {
+    "address": "No. 1234 Adapt Resort Avenue, British Street, Akwa Ibom州、ナイジェリア",
+    "tel": "+2348012345678",
+    "tel2": "+2348012345678",
+    "mail": "contact@adapt.com",
+    "mail2": "info@adapt.com",
+
+    "title": "お問い合わせ",
+    "punchline": "ご予約に関するご相談やサポートが必要な場合、または少しお話しされたい場合も、どうぞお気軽にお問い合わせください。皆さまからのご連絡を心よりお待ちしております。",
+
+    "map": {
+      "eyebrow": "アクセス",
+      "title": "所在地",
+      "description": "ナイジェリアの美しいアクワ・イボム州にある、私たちのロケーションをご紹介します。",
+      "state": "アクワ・イボム州",
+      "country": "ナイジェリア、西アフリカ",
+      "directions": "Google マップで開く"
+    },
+
+    "form": {
+      "eyebrow": "お問い合わせ",
+      "title": "まずはお気軽にご相談ください。",
+      "description": "ご質問やご宿泊の計画、または私たちのサービスについてもっと知りたいことはございませんか。皆さまからのお問い合わせを心よりお待ちしております。",
+      "direct-contact": "直接のお問い合わせをご希望ですか？",
+      "name": "お名前",
+      "name-placeholder": "山田 太郎",
+      "email": "メールアドレス",
+      "email-placeholder": "name@example.com",
+      "phone": "電話番号",
+      "phone-placeholder": "+234 ...",
+      "inquiry": "お問い合わせの種類",
+      "inquiry-placeholder": "お問い合わせ内容を選択してください",
+      "message": "メッセージ",
+      "message-placeholder": "ご質問やご要望をご記入ください。",
+      "submit": "メッセージを送信",
+      "sending": "送信中...",
+      "success": "ありがとうございます。メッセージを正常に受け付けました。",
+      "error": "エラーが発生しました。お手数ですが、もう一度お試しください。",
+      "inquiry-types": {
+        "general": "一般的なお問い合わせ",
+        "accommodation": "宿泊について",
+        "reservations": "ご予約について",
+        "experiences": "体験・アクティビティ",
+        "partnership": "パートナーシップ",
+        "other": "その他"
+      }
     }
   },
   "Not-found": {
     "headline": "ページが見つかりません",
-    "title": "お探しのページはここにはありません",
-    "text": "お探しのページは移動されたか、現在ご利用いただけない可能性があります。",
-    "return-link": "ホームに戻る"
+    "title": "お探しのページは見つかりませんでした",
+    "text": "お探しのページは移動されたか、現在ご利用いただけなくなっている可能性があります。",
+    "return-link": "トップページへ戻る"
+  },
+  "UnderConstruction": {
+    "eyebrow": "美しい何かが、今ここで生まれています",
+    "title": "このページは現在準備中です",
+    "description": "自然、贅沢、そして卓越したおもてなしが融合する、特別な体験を心を込めて準備しています。新しいAdaptの世界を、まもなく皆さまにお届けします。それまで、どうぞ楽しみにお待ちください。",
+    "progress-label": "準備状況",
+    "status": "進行中",
+    "coming-soon": "特別な体験が、まもなく始まります",
+    "return-home": "トップページへ戻る"
   }
 }

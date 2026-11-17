@@ -1,113 +1,144 @@
+
 {
   "Navigation": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "contact": "Contact",
     "faqs": "FAQs",
-    "reservations": "Make an enquiry",
-    "accommodations": "Accomodations",
+    "reservations": "Reservations",
+    "accommodations": "Accommodations",
     "careers": "Careers",
-    "experience": "Experience",
+    "experience": "Experiences",
     "gallery": "Gallery",
     "legal-notice": "Legal Notice",
     "site-usage": "Site Usage",
-    "privacy-notice": "Privacy Notice"
+    "privacy-notice": "Privacy Policy"
   },
   "Footer": {
-    "copyright": "Copyright 2026 © Adapt Resorts",
-    "punchline": "Experience the best of hospitality where you get to feel at home away from home",
-    "follow": "FOLLOW US",
-    "links1": "Quick Links",
-    "links2": "Company",
-    "contact-title":"Contact Us"
+    "copyright": "© 2026 Adapt Resorts. All rights reserved.",
+    "punchline": "A world of refined hospitality, where every stay feels like coming home.",
+    "follow": "FOLLOW OUR JOURNEY",
+    "links1": "Explore",
+    "links2": "Discover More",
+    "contact-title": "Get in Touch"
   },
   "Header": {
-    "punchline": "Discover something different.",
+    "punchline": "Discover something extraordinary.",
     "mobile-title": "Explore"
   },
   "Buttons": {
-    "book-now": "Book Now",
-    "reversations": "reservations",
-    "browse-rooms": "Browse Rooms",
-    "contact": "Contact"
+    "book-now": "Book Your Stay",
+    "reservations": "Make an Enquiry",
+    "browse-rooms": "Explore Accommodations",
+    "book-room": "Reserve This Room",
+    "contact": "Get in Touch",
+    "previous": "Previous",
+    "next": "Next"
   },
   "Home": {
     "hero": {
-      "headline": "Enjoy today in our natural luxury resorts",
-      "text": "Discover a sanctuary where nature, comfort, and thoughtful hospitality come together. At Adapt, every moment is an invitation to unwind, reconnect, and experience the beauty of exceptional living in a setting designed just for you.",
-      "action": "Book Now",
-      "sub-action": "Take a tour"
+      "headline": "Escape to a World of Natural Luxury",
+      "text": "Discover a sanctuary where nature, comfort, and thoughtful hospitality come together. At Adapt Resorts, every moment invites you to slow down, reconnect, and experience the beauty of exceptional living. From tranquil surroundings to carefully curated experiences, find your own little paradise away from the ordinary.",
+      "action": "Book Your Stay",
+      "sub-action": "Discover Adapt"
     },
     "about": {
-      "title": "Visit our natural paradise and reconnect with yourself",
-      "text": "Escape the everyday and immerse yourself in a world of natural beauty, tranquility, and exceptional hospitality. At Adapt, every detail is thoughtfully curated to help you slow down, embrace nature, and create unforgettable moments with the people who matter most."
+      "title": "Visit Our Natural Paradise and Reconnect With Yourself",
+      "text": "Leave the everyday behind and immerse yourself in a world of natural beauty, serenity, and exceptional hospitality. At Adapt Resorts, every detail is thoughtfully considered to create an atmosphere where you can slow down, rediscover yourself, and enjoy meaningful moments with the people who matter most."
     },
-    "hero3" : {
-      "title": "Visit our all-inclusive resorts today",
-      "text": "Your perfect getaway awaits. Experience the freedom of all-inclusive comfort, where exceptional hospitality, thoughtfully curated experiences, and breathtaking surroundings come together. Simply arrive, unwind, and let us take care of the rest."
+    "hero3": {
+      "title": "Experience the Art of All-Inclusive Living",
+      "text": "Your perfect escape begins here. Indulge in effortless comfort, exceptional hospitality, and thoughtfully curated experiences, all surrounded by breathtaking natural beauty. From the moment you arrive, every detail is taken care of, leaving you free to relax, explore, and savour every moment."
+    },
+    "hero4": {
+      "title": "Discover Your Perfect Retreat",
+      "text": "Every stay deserves a space of its own. Explore our collection of thoughtfully designed accommodations, where refined interiors, exceptional comfort, and considered details create an experience worth remembering.",
+      "collection": "The Adapt Collection",
+      "room-label": "Your Private Retreat",
+      "from": "Starting From",
+      "per-night": "Per Night",
+      "guests": "Guests",
+      "beds": "Beds",
+      "rooms": {
+        "premium-deluxe": "Premium Deluxe Room",
+        "premium-deluxe-description": "An elegant retreat designed for effortless relaxation. Enjoy beautifully appointed interiors, generous amenities, and refined comfort in a space that makes every moment of your stay special.",
+        "premium-deluxe-price": "₦200,000",
+
+        "executive-suite": "Executive Suite",
+        "executive-suite-description": "Experience elevated comfort in our sophisticated executive suite. Generous living spaces, tasteful interiors, and thoughtful amenities come together to create a truly distinguished stay.",
+        "executive-suite-price": "₦350,000",
+
+        "presidential-villa": "Presidential Villa",
+        "presidential-villa-description": "Discover the privilege of space and privacy in our exclusive presidential villa. Featuring expansive living areas, elegant furnishings, and exceptional comfort, it is an ideal retreat for an extraordinary getaway.",
+        "presidential-villa-price": "₦650,000",
+
+        "celebrity-suit": "Celebrity Suite",
+        "celebrity-suit-description": "Step into an exceptional world of comfort and exclusivity. With spacious interiors, sophisticated furnishings, and carefully considered details, the Celebrity Suite offers a memorable experience in refined luxury.",
+        "celebrity-suit-price": "₦960,000"
+      }
     }
   },
-    "Contact": {
-      "address": "No. 1234 Adapt Resort Avenue, British Street, Akwa Ibom State, Nigeria",
-      "tel": "+2348012345678",
-      "tel2": "+2348012345678",
-      "mail": "contact@adapt.com",
-      "mail2": "info@adapt.com",
+  "Contact": {
+    "address": "No. 1234 Adapt Resort Avenue, British Street, Akwa Ibom State, Nigeria",
+    "tel": "+2348012345678",
+    "tel2": "+2348012345678",
+    "mail": "contact@adapt.com",
+    "mail2": "info@adapt.com",
 
-      "title": "Contact us",
-      "punchline": "If you need help with your reservation, need support, or just want to say hi, feel free to get in touch with us below.",
+    "title": "Let's Connect",
+    "punchline": "Whether you're planning your next escape, have a question about our accommodations, or simply wish to learn more about Adapt Resorts, we're always delighted to hear from you.",
 
-      "map": {
-        "eyebrow": "Find us",
-        "title": "Our Location",
-        "description": "Discover where we are located in the beautiful Akwa Ibom State, Nigeria.",
-        "state": "Akwa Ibom State",
-        "country": "Nigeria, West Africa",
-        "directions": "Open in Google Maps"
-      },
-
-      "form": {
-        "eyebrow": "Get in touch",
-        "title": "Let's start a conversation.",
-        "description": "Have a question, planning a stay, or simply want to know more about what we offer? We'd love to hear from you.",
-        "direct-contact": "Prefer a direct conversation?",
-        "name": "Your name",
-        "name-placeholder": "John Doe",
-        "email": "Your email",
-        "email-placeholder": "john@example.com",
-        "phone": "Phone number",
-        "phone-placeholder": "+234 ...",
-        "inquiry": "Inquiry type",
-        "inquiry-placeholder": "Select an inquiry",
-        "message": "Your message",
-        "message-placeholder": "Tell us how we can help...",
-        "submit": "Send message",
-        "sending": "Sending...",
-        "success": "Thank you! Your message has been received.",
-        "error": "Something went wrong. Please try again.",
-        "inquiry-types": {
-          "general": "General Inquiry",
-          "accommodation": "Accommodation",
-          "reservations": "Reservations",
-          "experiences": "Experiences",
-          "partnership": "Partnership",
-          "other": "Other"
-        }
-      }
+    "map": {
+      "eyebrow": "Find Your Way to Us",
+      "title": "A Destination Worth Discovering",
+      "description": "Nestled in the beautiful surroundings of Akwa Ibom State, Nigeria, Adapt Resorts invites you to discover a destination where natural beauty and exceptional hospitality meet.",
+      "state": "Akwa Ibom State",
+      "country": "Nigeria, West Africa",
+      "directions": "Get Directions"
     },
+
+    "form": {
+      "eyebrow": "We'd Love to Hear From You",
+      "title": "Let's Start a Conversation.",
+      "description": "Whether you have a question, are planning a memorable stay, or would simply like to discover more about our offerings, our team is here to assist you. Send us a message and we'll be delighted to help.",
+      "direct-contact": "Prefer a direct conversation?",
+      "name": "Full Name",
+      "name-placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email-placeholder": "you@example.com",
+      "phone": "Phone Number",
+      "phone-placeholder": "+234 800 000 0000",
+      "inquiry": "How Can We Help?",
+      "inquiry-placeholder": "Select an inquiry type",
+      "message": "Your Message",
+      "message-placeholder": "Tell us a little about your enquiry...",
+      "submit": "Send Your Message",
+      "sending": "Sending Your Message...",
+      "success": "Thank you for reaching out. Your message has been received, and our team will be in touch shortly.",
+      "error": "We couldn't send your message. Please try again or contact us directly.",
+      "inquiry-types": {
+        "general": "General Enquiry",
+        "accommodation": "Accommodation Information",
+        "reservations": "Bookings and Reservations",
+        "experiences": "Experiences and Activities",
+        "partnership": "Business and Partnerships",
+        "other": "Other Enquiries"
+      }
+    }
+  },
   "Not-found": {
     "headline": "PAGE NOT FOUND",
-    "title": "This page is not here",
-    "text": "This page you are looking for may have moved or may no longer be available",
-    "return-link": "Return home"
+    "title": "A Little Off the Beaten Path",
+    "text": "It seems the page you're looking for has wandered elsewhere. Let's guide you back to where your journey begins.",
+    "return-link": "Return Home"
   },
   "UnderConstruction": {
-      "eyebrow": "Something beautiful is taking shape",
-      "title": "This Page is Under Construction",
-      "description": "We are thoughtfully crafting something extraordinary. A destination where nature, luxury, and exceptional hospitality come together. Our new experience will be ready soon. Until then, stay inspired.",
-      "progress-label": "Our preparations",
-      "status": "In progress",
-      "coming-soon": "Something extraordinary is coming",
-      "return-home": "Return to homepage"
-    }
+    "eyebrow": "Something Beautiful Is Taking Shape",
+    "title": "An Extraordinary Experience Is on Its Way",
+    "description": "We're thoughtfully creating something special. A destination where natural beauty, refined luxury, and exceptional hospitality come together. Our new experience is being prepared with care, and we can't wait to welcome you.",
+    "progress-label": "Our Preparations",
+    "status": "In Progress",
+    "coming-soon": "Something Extraordinary Is Coming",
+    "return-home": "Return to Homepage"
+  }
 }

@@ -1,28 +1,23 @@
 
 import { useTranslations } from "next-intl";
 
+
+import Hero from "@/components/website/home/Hero";
+import About from "@/components/website/home/HeroAbout";
+import HeroRooms from "@/components/website/home/HeroRooms";
+import HeroMoonshot from "@/components/website/home/HeroMoonshot";
+
 export default function Home() {
-  const t = useTranslations("Home");
 
   return (
-    <main className="min-h-200">
-      <h1 className="font-display text-5xl text-mangrove">
-        {t("hero.headline")}
-      </h1>
+    <div className="overflow-hidden">
+      <Hero />
 
-      <p className="font-sans text-mangrove">
-        {t("hero.description")}
-      </p>
+      <HeroRooms />
 
-      <section className="bg-mangrove text-shell">
-        <h2 className="font-display text-4xl text-champagne">
-          Discover Adapt
-        </h2>
-      </section>
+      <About />
 
-      <button className="bg-mangrove text-shell px-6 py-3">
-        {t("hero.action")}
-      </button>
-    </main>
+      <HeroMoonshot />
+    </div>
   );
 }
