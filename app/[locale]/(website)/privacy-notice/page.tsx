@@ -1,23 +1,32 @@
 "use client"
 
+import Highlight from "@/components/website/legals/Highlight";
+import Reachout from "@/components/website/legals/Reachout";
+import Scroll,{
+  type ScrollData,
+} from "@/components/website/legals/Scroll";
+
 import { useTranslations } from "next-intl";
 
-import Wrapper from "@/components/website/Wrapper";
-import UnderConstruction from "@/components/website/UnderConstruction";
-
 const PrivacyNotice = () => {
-  const t = useTranslations("Navigation");
+  const privacy = useTranslations("PrivacyPolicy");
+  const footer = useTranslations("Footer");
+
+  const scrollData: ScrollData = {
+      lastUpdateLabel: privacy("lastUpdateLabel"),
+      lastUpdate: privacy("lastUpdate"),
+      sections: privacy.raw("sections") as ScrollData["sections"],
+  };
 
   return <div className="">
-    <section className="min-h-[20svh] flex items-end">
-      <Wrapper>
-        <h1 className="font-display text-5xl text-mangrove">
-          {t("privacy-notice")}
-        </h1>
-      </Wrapper>
-    </section>
+    <Highlight title={privacy("title")} position="bottom"/>
 
-    <UnderConstruction />
+    <Scroll
+      data={scrollData}
+      followLabel={footer("follow")}
+    />
+
+    <Reachout title={privacy("contact-title")} text={privacy("contact-text")} />
   </div>
 }
 
