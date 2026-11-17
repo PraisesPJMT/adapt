@@ -1,7 +1,7 @@
 
 import { getTranslations } from "next-intl/server";
 
-export default async function DashboardPage() {
+const DashboardPage = async () => {
   const t = await getTranslations("Dashboard");
 
   const stats = [
@@ -98,4 +98,6 @@ export default async function DashboardPage() {
       </section>
     </div>
   );
-}
+};
+
+export default DashboardPage;
