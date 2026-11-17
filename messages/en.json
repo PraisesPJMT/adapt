@@ -38,11 +38,54 @@
       "sub-action": "Take a tour"
     }
   },
-  "Contact": {
-    "address":"No. 1234 Adapt Resort Avenue, British Street, Akwa Ibon State, Nigeria",
-    "tel":"+2348012345678",
-    "mail":"contact@adapt.com"
-  },
+    "Contact": {
+      "address": "No. 1234 Adapt Resort Avenue, British Street, Akwa Ibom State, Nigeria",
+      "tel": "+2348012345678",
+      "tel2": "+2348012345678",
+      "mail": "contact@adapt.com",
+      "mail2": "info@adapt.com",
+
+      "title": "Contact us",
+      "punchline": "If you need help with your reservation, need support, or just want to say hi, feel free to get in touch with us below.",
+
+      "map": {
+        "eyebrow": "Find us",
+        "title": "Our Location",
+        "description": "Discover where we are located in the beautiful Akwa Ibom State, Nigeria.",
+        "state": "Akwa Ibom State",
+        "country": "Nigeria, West Africa",
+        "directions": "Open in Google Maps"
+      },
+
+      "form": {
+        "eyebrow": "Get in touch",
+        "title": "Let's start a conversation.",
+        "description": "Have a question, planning a stay, or simply want to know more about what we offer? We'd love to hear from you.",
+        "direct-contact": "Prefer a direct conversation?",
+        "name": "Your name",
+        "name-placeholder": "John Doe",
+        "email": "Your email",
+        "email-placeholder": "john@example.com",
+        "phone": "Phone number",
+        "phone-placeholder": "+234 ...",
+        "inquiry": "Inquiry type",
+        "inquiry-placeholder": "Select an inquiry",
+        "message": "Your message",
+        "message-placeholder": "Tell us how we can help...",
+        "submit": "Send message",
+        "sending": "Sending...",
+        "success": "Thank you! Your message has been received.",
+        "error": "Something went wrong. Please try again.",
+        "inquiry-types": {
+          "general": "General Inquiry",
+          "accommodation": "Accommodation",
+          "reservations": "Reservations",
+          "experiences": "Experiences",
+          "partnership": "Partnership",
+          "other": "Other"
+        }
+      }
+    },
   "Not-found": {
     "headline": "PAGE NOT FOUND",
     "title": "This page is not here",
