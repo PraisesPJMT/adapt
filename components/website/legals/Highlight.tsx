@@ -10,18 +10,20 @@ type HighlightPosition = "top" | "bottom" | "left" | "right";
 type HighlightProps = {
   title?: string;
   position?: HighlightPosition;
+  image?: string;
 };
 
 const Highlight = ({
   title = "New Page Heading",
   position = "top",
+  image = "url('/404_bg.png')"
 }: HighlightProps) => {
   const shouldReduceMotion = useReducedMotion();
 
   const smoothEase = [0.22, 1, 0.36, 1] as const;
 
   const isHorizontal = position === "top" || position === "bottom";
-  const isPrimaryPosition = position === "top" || position === "left";
+  const isPrimaryPosition = position === "top" || position === "left" || position === "right";
 
   const backgroundPosition = {
     top: "inset-x-0 top-0 h-1/2",
@@ -80,7 +82,7 @@ const Highlight = ({
             md:hidden
           "
           style={{
-            backgroundImage: "url('/404_bg.png')",
+            backgroundImage: image,
           }}
         />
 
@@ -139,7 +141,7 @@ const Highlight = ({
             tracking-tight
             ${titleColor}
             sm:text-5xl
-            md:mb-10
+            md:mb-1
             md:text-6xl
             lg:text-7xl
             xl:text-8xl
@@ -173,7 +175,7 @@ const Highlight = ({
             xl:h-80
           `}
           style={{
-            backgroundImage: "url('/404_bg.png')",
+            backgroundImage: image,
           }}
         >
           <div className="absolute inset-0 bg-primary/45" />

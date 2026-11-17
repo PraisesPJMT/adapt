@@ -19,14 +19,14 @@ const PrivacyNotice = () => {
   };
 
   return <div className="">
-    <Highlight title={privacy("title")} position="bottom"/>
+    <Highlight title={privacy("title")} image={"url('/wide_image_1.png')"} position="bottom"/>
 
     <Scroll
       data={scrollData}
       followLabel={footer("follow")}
     />
 
-    <Reachout title={privacy("contact-title")} text={privacy("contact-text")} />
+    <Reachout title={privacy("contact-title")} text={privacy("contact-text")} position="left" />
   </div>
 }
 

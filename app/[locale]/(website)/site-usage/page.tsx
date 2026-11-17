@@ -19,7 +19,7 @@ const SiteUsage = () => {
   };
 
   return <div className="">
-    <Highlight title={site("title")} position="left"/>
+    <Highlight title={site("title")} image={"url('/wide_image_2.png')"} position="left"/>
 
     <Scroll
       data={scrollData}

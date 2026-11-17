@@ -1517,6 +1517,160 @@
         ]
       }
     ]
-  }
+  },
 
+  "FAQs": {
+    "page-title": "FAQs",
+    "contact-title": "Still Have a Question?",
+    "contact-text": "If you have questions about these our services and offers, you may contact Adapt Resorts through the details below:",
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know before your stay. Explore our answers to common questions about reservations, accommodation, experiences and the details that make your visit special.",
+    "searchPlaceholder": "What would you like to know?",
+    "allLabel": "All Questions",
+    "questionCountLabel": "questions",
+    "resultsLabel": "results found",
+    "clearSearchLabel": "Clear search",
+    "viewAllLabel": "View all questions",
+    "emptyTitle": "Nothing found",
+    "emptyDescription": "We couldn't find an answer matching your search. Try another keyword or explore all our questions.",
+    "categories": [
+      {
+        "title": "Reservations & Bookings",
+        "questions": [
+          {
+            "question": "How can I make a reservation?",
+            "answer": "You can make a reservation by visiting our Reservations page and submitting your preferred accommodation, travel dates and guest details. You may also contact our reservations team directly for assistance. A booking is considered confirmed once you receive the applicable confirmation."
+          },
+          {
+            "question": "Can I make a reservation by phone or email?",
+            "answer": "Yes. You may contact our team through the official contact details provided on our website to discuss availability and reservation arrangements. Our team will guide you through the available booking options."
+          },
+          {
+            "question": "How will I know if my reservation is confirmed?",
+            "answer": "Once your reservation has been successfully processed, you will receive a confirmation through the contact channel associated with your booking. This will contain the relevant reservation details and any applicable instructions."
+          },
+          {
+            "question": "Can I modify an existing reservation?",
+            "answer": "Requests to modify a reservation may be subject to availability, rate conditions and the terms applicable to your original booking. Please contact our reservations team with your booking reference and requested changes."
+          },
+          {
+            "question": "Can I cancel my reservation?",
+            "answer": "Cancellation conditions depend on the accommodation, rate plan and booking arrangement selected. Please review the cancellation terms provided during your reservation or in your booking confirmation before requesting a cancellation."
+          },
+          {
+            "question": "Is an advance payment required?",
+            "answer": "Payment and deposit requirements may vary depending on the property, accommodation type and reservation conditions. Any required deposit, advance payment or payment deadline will be communicated during the booking process."
+          }
+        ]
+      },
+      {
+        "title": "Accommodation & Stay",
+        "questions": [
+          {
+            "question": "What types of accommodation do you offer?",
+            "answer": "Adapt Resorts offers hospitality experiences centred around thoughtfully considered accommodation and the character of each destination. Available accommodation types and their individual features are presented on our Accommodations page."
+          },
+          {
+            "question": "What time can I check in and check out?",
+            "answer": "Check-in and check-out times may vary by property. The applicable times will be communicated as part of your reservation information. If you require an early arrival or late departure, please contact the relevant property in advance. Such requests are subject to availability and may attract additional charges."
+          },
+          {
+            "question": "Can I request an early check-in or late check-out?",
+            "answer": "Yes. You may submit an early check-in or late check-out request before your arrival. These arrangements are subject to room availability and the operating requirements of the property, and cannot be guaranteed until confirmed by our team."
+          },
+          {
+            "question": "Can I request a particular room or accommodation?",
+            "answer": "You may communicate your preferred accommodation type or room requirements when making your reservation. We will make reasonable efforts to accommodate your preferences, subject to availability and the applicable booking conditions."
+          },
+          {
+            "question": "Can I arrange a stay for a special occasion?",
+            "answer": "We welcome enquiries about special occasions, celebrations and memorable guest experiences. Please contact our team with details of your occasion and any arrangements you have in mind so that we can advise on the available options."
+          },
+          {
+            "question": "Are children welcome at Adapt Resorts?",
+            "answer": "Guest arrangements and age-related conditions may vary by property and accommodation type. Please contact the relevant property before booking so that we can clarify its family accommodation options and any applicable requirements."
+          }
+        ]
+      },
+      {
+        "title": "Experiences & Facilities",
+        "questions": [
+          {
+            "question": "What experiences can I enjoy during my stay?",
+            "answer": "Our experiences are designed to help guests connect with the surrounding landscape, local culture and character of each destination. Available activities and experiences may vary by property and season. Explore our Experiences page or contact our team for current information."
+          },
+          {
+            "question": "Do I need to book experiences in advance?",
+            "answer": "Some experiences may require advance reservations, while others may depend on availability during your stay. We recommend enquiring ahead of your visit, particularly if you have a specific activity or date in mind."
+          },
+          {
+            "question": "Are dining arrangements available?",
+            "answer": "Dining options and arrangements may vary depending on the property. Please consult the relevant accommodation information or contact our team for details about available dining services, menus and reservation requirements."
+          },
+          {
+            "question": "Can you accommodate dietary requirements?",
+            "answer": "You may communicate dietary preferences, allergies or other food-related requirements when making your reservation or contacting our team. Please provide this information as early as possible so that the relevant property can advise on available arrangements."
+          },
+          {
+            "question": "Are facilities and activities available throughout the year?",
+            "answer": "Some facilities and experiences may be affected by seasonality, weather, maintenance or operational conditions. Availability should be confirmed with the relevant property before your visit."
+          },
+          {
+            "question": "Can I arrange a private event or celebration?",
+            "answer": "For enquiries about private gatherings, celebrations, retreats or other events, please contact our team with your preferred dates, estimated guest numbers and requirements. Available arrangements will depend on the property and event facilities."
+          }
+        ]
+      },
+      {
+        "title": "Payments & Policies",
+        "questions": [
+          {
+            "question": "Which payment methods do you accept?",
+            "answer": "Available payment methods will be communicated during the reservation process or by our reservations team. Accepted options may depend on the property, booking channel and payment arrangements."
+          },
+          {
+            "question": "Are taxes and additional charges included in the displayed rates?",
+            "answer": "The treatment of taxes, levies, service charges and additional fees may vary by reservation. Please review the price breakdown and applicable conditions presented during booking before completing your reservation."
+          },
+          {
+            "question": "Will I receive a receipt or invoice?",
+            "answer": "Payment confirmations and relevant transaction documentation may be provided following a successful payment. If you require a formal invoice or additional documentation, please contact our team with your reservation details."
+          },
+          {
+            "question": "What happens if I need to request a refund?",
+            "answer": "Refund eligibility is determined by the cancellation, payment and rate conditions applicable to your reservation. Please contact our team with your booking reference so that your request can be reviewed."
+          },
+          {
+            "question": "Do you have a policy for pets?",
+            "answer": "Pet accommodation arrangements may differ between properties. Please contact the relevant property before making a reservation to confirm whether pets are permitted and whether any additional conditions apply."
+          }
+        ]
+      },
+      {
+        "title": "Before Your Visit",
+        "questions": [
+          {
+            "question": "Where can I find directions to the property?",
+            "answer": "Property addresses and relevant location information are available through our website and reservation communications. If you need additional directions or assistance planning your arrival, please contact our team."
+          },
+          {
+            "question": "Can you assist with airport transfers or transportation?",
+            "answer": "Transportation arrangements may be available depending on the property and destination. Please enquire before your arrival to confirm available options, applicable charges and any advance booking requirements."
+          },
+          {
+            "question": "What should I bring for my stay?",
+            "answer": "What you need may depend on the destination, season and experiences you intend to enjoy. Your reservation information and our team can provide relevant guidance about your visit and any specific preparations."
+          },
+          {
+            "question": "What if I have accessibility requirements?",
+            "answer": "We encourage guests with accessibility requirements to contact the relevant property before booking. Our team can provide information about available facilities and discuss arrangements based on your individual needs."
+          },
+          {
+            "question": "How can I contact Adapt Resorts if I need assistance?",
+            "answer": "You can reach our team through the Contact page on our website or the official contact information provided in your reservation confirmation. We will direct your enquiry to the appropriate team."
+          }
+        ]
+      }
+    ]
+  }
 }
