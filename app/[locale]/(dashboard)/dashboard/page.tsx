@@ -1,6 +1,8 @@
 
 import { getTranslations } from "next-intl/server";
 
+export const instant = false;
+
 const DashboardPage = async () => {
   const t = await getTranslations("Dashboard");
 
