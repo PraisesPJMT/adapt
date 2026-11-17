@@ -1,0 +1,143 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "Over ons",
+    "contact": "Contact",
+    "faqs": "Veelgestelde vragen",
+    "reservations": "Een aanvraag doen",
+    "accommodations": "Accommodaties",
+    "careers": "Carrières",
+    "experience": "Ervaringen",
+    "gallery": "Galerij",
+    "legal-notice": "Juridische kennisgeving",
+    "site-usage": "Websitegebruik",
+    "privacy-notice": "Privacyverklaring"
+  },
+  "Footer": {
+    "copyright": "Copyright 2026 © Adapt Resorts",
+    "punchline": "Beleef uitzonderlijke gastvrijheid en voel u helemaal thuis, ook ver van huis.",
+    "follow": "VOLG ONS",
+    "links1": "Snelle links",
+    "links2": "Bedrijf",
+    "contact-title": "Contact"
+  },
+  "Header": {
+    "punchline": "Ontdek iets bijzonders.",
+    "mobile-title": "Ontdek"
+  },
+  "Buttons": {
+    "book-now": "Boek nu",
+    "reversations": "Reserveringen",
+    "browse-rooms": "Bekijk kamers",
+    "book-room": "Boek deze kamer",
+    "contact": "Contact",
+    "previous": "Vorige",
+    "next": "Volgende"
+  },
+  "Home": {
+    "hero": {
+      "headline": "Geniet vandaag van onze natuurlijke luxe resorts",
+      "text": "Ontdek een oase waar natuur, comfort en oprechte gastvrijheid samenkomen. Bij Adapt nodigt ieder moment u uit om tot rust te komen, opnieuw verbinding te maken en te genieten van de schoonheid van uitzonderlijk wonen en verblijven in een omgeving die speciaal voor u is ontworpen.",
+      "action": "Boek nu",
+      "sub-action": "Ontdek het resort"
+    },
+    "about": {
+      "title": "Bezoek ons natuurlijke paradijs en vind opnieuw verbinding met uzelf",
+      "text": "Ontsnap aan de dagelijkse drukte en dompel uzelf onder in een wereld van natuurlijke schoonheid, rust en uitzonderlijke gastvrijheid. Bij Adapt is elk detail zorgvuldig samengesteld om u te laten vertragen, de natuur te omarmen en onvergetelijke momenten te beleven met de mensen die er echt toe doen."
+    },
+    "hero3": {
+      "title": "Ontdek vandaag nog onze all-inclusive resorts",
+      "text": "Uw perfecte vakantie wacht op u. Ervaar de vrijheid van all-inclusive comfort, waar uitzonderlijke gastvrijheid, zorgvuldig samengestelde belevenissen en adembenemende omgevingen samenkomen. Kom aan, ontspan en laat de rest aan ons over."
+    },
+    "hero4": {
+      "title": "Ontdek uw perfecte toevluchtsoord",
+      "text": "Van zorgvuldig ontworpen kamers tot uitzonderlijke privéruimtes: ontdek accommodaties waarin comfort, rust en oog voor detail centraal staan.",
+      "collection": "De Adapt-collectie",
+      "room-label": "Een plek om u thuis te voelen",
+      "from": "Vanaf",
+      "per-night": "Per nacht",
+      "guests": "Gasten",
+      "beds": "Bedden",
+      "rooms": {
+        "premium-deluxe": "Premium Deluxe Kamer",
+        "premium-deluxe-description": "Ervaar verfijnd comfort in een prachtig ingerichte ruimte, zorgvuldig ontworpen met elegante interieurs, uitgebreide voorzieningen en alles wat u nodig heeft voor een onvergetelijk verblijf.",
+        "premium-deluxe-price": "₦200.000",
+
+        "executive-suite": "Executive Suite",
+        "executive-suite-description": "Geniet van een bijzonder verblijf in onze stijlvolle executive suite, waar ruime interieurs, ingetogen luxe en uitzonderlijk comfort samenkomen.",
+        "executive-suite-price": "₦350.000",
+
+        "presidential-villa": "Presidentiële Villa",
+        "presidential-villa-description": "Ontdek een uitzonderlijk privéverblijf met royale leefruimtes, verfijnde inrichting en een sfeer van volledige exclusiviteit.",
+        "presidential-villa-price": "₦650.000",
+
+        "celebrity-suit": "Celebrity Suite",
+        "celebrity-suit-description": "Ontdek een uitzonderlijk privéverblijf met royale leefruimtes, verfijnde inrichting en een sfeer van volledige exclusiviteit.",
+        "celebrity-suit-price": "₦960.000"
+      }
+    }
+  },
+  "Contact": {
+    "address": "Nr. 1234 Adapt Resort Avenue, British Street, Akwa Ibom State, Nigeria",
+    "tel": "+2348012345678",
+    "tel2": "+2348012345678",
+    "mail": "contact@adapt.com",
+    "mail2": "info@adapt.com",
+
+    "title": "Neem contact met ons op",
+    "punchline": "Heeft u hulp nodig bij uw reservering, ondersteuning nodig of wilt u gewoon even hallo zeggen? Neem gerust contact met ons op.",
+
+    "map": {
+      "eyebrow": "Vind ons",
+      "title": "Onze locatie",
+      "description": "Ontdek waar u ons kunt vinden in de prachtige staat Akwa Ibom, Nigeria.",
+      "state": "Akwa Ibom State",
+      "country": "Nigeria, West-Afrika",
+      "directions": "Open in Google Maps"
+    },
+
+    "form": {
+      "eyebrow": "Neem contact op",
+      "title": "Laten we kennismaken.",
+      "description": "Heeft u een vraag, bent u een verblijf aan het plannen of wilt u gewoon meer weten over ons aanbod? We horen graag van u.",
+      "direct-contact": "Liever rechtstreeks contact?",
+      "name": "Uw naam",
+      "name-placeholder": "Jan Jansen",
+      "email": "Uw e-mailadres",
+      "email-placeholder": "jan@example.com",
+      "phone": "Telefoonnummer",
+      "phone-placeholder": "+234 ...",
+      "inquiry": "Type aanvraag",
+      "inquiry-placeholder": "Selecteer een onderwerp",
+      "message": "Uw bericht",
+      "message-placeholder": "Vertel ons hoe we u kunnen helpen...",
+      "submit": "Bericht verzenden",
+      "sending": "Verzenden...",
+      "success": "Hartelijk dank! Uw bericht is succesvol ontvangen.",
+      "error": "Er is iets misgegaan. Probeer het opnieuw.",
+      "inquiry-types": {
+        "general": "Algemene vraag",
+        "accommodation": "Accommodatie",
+        "reservations": "Reserveringen",
+        "experiences": "Ervaringen",
+        "partnership": "Samenwerking",
+        "other": "Overig"
+      }
+    }
+  },
+  "Not-found": {
+    "headline": "PAGINA NIET GEVONDEN",
+    "title": "Deze pagina bestaat niet",
+    "text": "De pagina die u zoekt, is mogelijk verplaatst of niet langer beschikbaar.",
+    "return-link": "Terug naar home"
+  },
+  "UnderConstruction": {
+    "eyebrow": "Er wordt iets bijzonders gecreëerd",
+    "title": "Deze pagina is in aanbouw",
+    "description": "We werken met zorg aan iets buitengewoons. Een bestemming waar natuur, luxe en uitzonderlijke gastvrijheid samenkomen. Onze nieuwe ervaring is binnenkort beschikbaar. Blijf tot die tijd geïnspireerd.",
+    "progress-label": "Onze voorbereidingen",
+    "status": "In uitvoering",
+    "coming-soon": "Er komt iets buitengewoons aan",
+    "return-home": "Terug naar de homepage"
+  }
+}

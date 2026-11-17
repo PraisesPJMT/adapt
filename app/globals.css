@@ -1,26 +1,112 @@
+
 @import "tailwindcss";
 
+/* Adapt — Tideline colour palette */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --shell: #F1EEE7;
+  --linen: #E1DACE;
+
+  --mangrove: #14231C;
+  --canopy: #263A32;
+  --root: #54382C;
+
+  --tide: #43606D;
+  --estuary: #8D897C;
+
+  --old-brass: #9D8653;
+  --champagne: #D5C29C;
+
+  --logo-blue: #00AFEF;
+
+  /* Semantic colours */
+  --background: var(--shell);
+  --foreground: var(--mangrove);
+
+  --surface: var(--linen);
+  --surface-dark: var(--mangrove);
+
+  --primary: var(--mangrove);
+  --primary-foreground: var(--shell);
+
+  --secondary: var(--tide);
+  --accent: var(--old-brass);
+
+  --border: var(--linen);
 }
 
+/* Tailwind CSS v4 theme configuration */
 @theme inline {
+  /* Fonts */
+  --font-sans: var(--font-figtree);
+  --font-display: var(--font-cormorant);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Brand colours */
+  --color-shell: var(--shell);
+  --color-linen: var(--linen);
+
+  --color-mangrove: var(--mangrove);
+  --color-canopy: var(--canopy);
+  --color-root: var(--root);
+
+  --color-tide: var(--tide);
+  --color-estuary: var(--estuary);
+
+  --color-old-brass: var(--old-brass);
+  --color-champagne: var(--champagne);
+  --color-logo-blue: var(--logo-blue);
+
+  /* Semantic colours */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-dark: var(--surface-dark);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-figtree), Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Display typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+/* Links */
+a {
+  text-underline-offset: 4px;
+}
+
+/* Form controls inherit the brand body font */
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }

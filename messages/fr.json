@@ -1,0 +1,144 @@
+
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "faqs": "FAQ",
+    "reservations": "Faire une demande",
+    "accommodations": "Hébergements",
+    "careers": "Carrières",
+    "experience": "Expériences",
+    "gallery": "Galerie",
+    "legal-notice": "Mentions légales",
+    "site-usage": "Utilisation du site",
+    "privacy-notice": "Politique de confidentialité"
+  },
+  "Footer": {
+    "copyright": "Copyright 2026 © Adapt Resorts",
+    "punchline": "Découvrez l'excellence de l'hospitalité et profitez d'un véritable chez-vous, loin de chez vous.",
+    "follow": "SUIVEZ-NOUS",
+    "links1": "Liens rapides",
+    "links2": "Entreprise",
+    "contact-title": "Contactez-nous"
+  },
+  "Header": {
+    "punchline": "Découvrez une expérience différente.",
+    "mobile-title": "Explorer"
+  },
+  "Buttons": {
+    "book-now": "Réserver maintenant",
+    "reversations": "Réservations",
+    "browse-rooms": "Découvrir nos chambres",
+    "book-room": "Réserver cette chambre",
+    "contact": "Nous contacter",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "Home": {
+    "hero": {
+      "headline": "Vivez l'instant présent dans nos havres de luxe au cœur de la nature",
+      "text": "Découvrez un sanctuaire où la nature, le confort et une hospitalité attentionnée se rencontrent. Chez Adapt, chaque instant est une invitation à vous détendre, à vous ressourcer et à savourer la beauté d'un art de vivre exceptionnel, dans un cadre pensé pour vous.",
+      "action": "Réserver maintenant",
+      "sub-action": "Découvrir"
+    },
+    "about": {
+      "title": "Visitez notre paradis naturel et retrouvez l'harmonie avec vous-même",
+      "text": "Échappez au quotidien et plongez dans un univers de beauté naturelle, de sérénité et d'hospitalité exceptionnelle. Chez Adapt, chaque détail est soigneusement pensé pour vous permettre de ralentir, de renouer avec la nature et de créer des souvenirs inoubliables avec ceux qui comptent le plus."
+    },
+    "hero3": {
+      "title": "Découvrez dès aujourd'hui nos complexes tout compris",
+      "text": "Votre escapade idéale vous attend. Profitez d'une expérience tout compris où une hospitalité exceptionnelle, des expériences soigneusement sélectionnées et des paysages à couper le souffle se conjuguent harmonieusement. Il ne vous reste qu'à arriver, vous détendre et nous laisser prendre soin de tout."
+    },
+    "hero4": {
+      "title": "Découvrez le refuge qui vous ressemble",
+      "text": "Des chambres élégamment aménagées aux espaces privés d'exception, découvrez des hébergements conçus autour du confort, de la sérénité et du souci du moindre détail.",
+      "collection": "La Collection Adapt",
+      "room-label": "Un lieu qui vous ressemble",
+      "from": "À partir de",
+      "per-night": "Par nuit",
+      "guests": "Voyageurs",
+      "beds": "Lits",
+      "rooms": {
+        "premium-deluxe": "Chambre Premium Deluxe",
+        "premium-deluxe-description": "Découvrez un confort raffiné dans un espace élégamment aménagé, où chaque détail est pensé avec soin. Profitez d'intérieurs sophistiqués, d'équipements généreux et de tout le nécessaire pour un séjour inoubliable.",
+        "premium-deluxe-price": "200 000 ₦",
+
+        "executive-suite": "Suite Exécutive",
+        "executive-suite-description": "Profitez d'un séjour d'exception dans notre suite exécutive sophistiquée, où les espaces généreux, le luxe discret et un confort remarquable s'unissent harmonieusement.",
+        "executive-suite-price": "350 000 ₦",
+
+        "presidential-villa": "Villa Présidentielle",
+        "presidential-villa-description": "Découvrez un refuge privé d'exception offrant de vastes espaces de vie, un mobilier raffiné et une atmosphère empreinte d'exclusivité.",
+        "presidential-villa-price": "650 000 ₦",
+
+        "celebrity-suit": "Suite Celebrity",
+        "celebrity-suit-description": "Découvrez un refuge privé prestigieux, doté de vastes espaces de vie, d'un mobilier raffiné et d'une atmosphère où intimité et exclusivité se rencontrent.",
+        "celebrity-suit-price": "960 000 ₦"
+      }
+    }
+  },
+  "Contact": {
+    "address": "No. 1234 Adapt Resort Avenue, British Street, État d'Akwa Ibom, Nigeria",
+    "tel": "+2348012345678",
+    "tel2": "+2348012345678",
+    "mail": "contact@adapt.com",
+    "mail2": "info@adapt.com",
+
+    "title": "Contactez-nous",
+    "punchline": "Besoin d'aide concernant votre réservation, d'assistance ou simplement envie de nous dire bonjour ? N'hésitez pas à nous contacter.",
+
+    "map": {
+      "eyebrow": "Nous trouver",
+      "title": "Notre emplacement",
+      "description": "Découvrez notre emplacement au cœur du magnifique État d'Akwa Ibom, au Nigeria.",
+      "state": "État d'Akwa Ibom",
+      "country": "Nigeria, Afrique de l'Ouest",
+      "directions": "Ouvrir dans Google Maps"
+    },
+
+    "form": {
+      "eyebrow": "Prenez contact",
+      "title": "Entamons une conversation.",
+      "description": "Vous avez une question, vous envisagez un séjour ou souhaitez simplement en savoir plus sur nos prestations ? Nous serions ravis d'échanger avec vous.",
+      "direct-contact": "Vous préférez nous contacter directement ?",
+      "name": "Votre nom",
+      "name-placeholder": "Jean Dupont",
+      "email": "Votre adresse e-mail",
+      "email-placeholder": "jean@exemple.com",
+      "phone": "Numéro de téléphone",
+      "phone-placeholder": "+234 ...",
+      "inquiry": "Type de demande",
+      "inquiry-placeholder": "Sélectionnez un sujet",
+      "message": "Votre message",
+      "message-placeholder": "Dites-nous comment nous pouvons vous aider...",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Merci ! Votre message a bien été reçu.",
+      "error": "Une erreur s'est produite. Veuillez réessayer.",
+      "inquiry-types": {
+        "general": "Demande générale",
+        "accommodation": "Hébergement",
+        "reservations": "Réservations",
+        "experiences": "Expériences",
+        "partnership": "Partenariat",
+        "other": "Autre"
+      }
+    }
+  },
+  "Not-found": {
+    "headline": "PAGE INTROUVABLE",
+    "title": "Cette page n'existe pas ici",
+    "text": "La page que vous recherchez a peut-être été déplacée ou n'est plus disponible.",
+    "return-link": "Retour à l'accueil"
+  },
+  "UnderConstruction": {
+    "eyebrow": "Quelque chose de magnifique prend forme",
+    "title": "Cette page est en construction",
+    "description": "Nous préparons avec soin une expérience extraordinaire. Un lieu où la nature, le luxe et une hospitalité exceptionnelle se rencontrent. Notre nouvel univers sera bientôt prêt. En attendant, laissez-vous inspirer.",
+    "progress-label": "Nos préparatifs",
+    "status": "En cours",
+    "coming-soon": "Une expérience extraordinaire se prépare",
+    "return-home": "Retour à la page d'accueil"
+  }
+}
