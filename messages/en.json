@@ -28,14 +28,23 @@
   "Buttons": {
     "book-now": "Book Now",
     "reversations": "reservations",
-    "browse-rooms": "Browse Rooms"
+    "browse-rooms": "Browse Rooms",
+    "contact": "Contact"
   },
   "Home": {
     "hero": {
-      "headline": "Shaped by the place.",
-      "description": "Everything here comes from here.",
+      "headline": "Enjoy today in our natural luxury resorts",
+      "text": "Discover a sanctuary where nature, comfort, and thoughtful hospitality come together. At Adapt, every moment is an invitation to unwind, reconnect, and experience the beauty of exceptional living in a setting designed just for you.",
       "action": "Book Now",
       "sub-action": "Take a tour"
+    },
+    "about": {
+      "title": "Visit our natural paradise and reconnect with yourself",
+      "text": "Escape the everyday and immerse yourself in a world of natural beauty, tranquility, and exceptional hospitality. At Adapt, every detail is thoughtfully curated to help you slow down, embrace nature, and create unforgettable moments with the people who matter most."
+    },
+    "hero3" : {
+      "title": "Visit our all-inclusive resorts today",
+      "text": "Your perfect getaway awaits. Experience the freedom of all-inclusive comfort, where exceptional hospitality, thoughtfully curated experiences, and breathtaking surroundings come together. Simply arrive, unwind, and let us take care of the rest."
     }
   },
     "Contact": {
@@ -91,5 +100,14 @@
     "title": "This page is not here",
     "text": "This page you are looking for may have moved or may no longer be available",
     "return-link": "Return home"
-  }
+  },
+  "UnderConstruction": {
+      "eyebrow": "Something beautiful is taking shape",
+      "title": "This Page is Under Construction",
+      "description": "We are thoughtfully crafting something extraordinary. A destination where nature, luxury, and exceptional hospitality come together. Our new experience will be ready soon. Until then, stay inspired.",
+      "progress-label": "Our preparations",
+      "status": "In progress",
+      "coming-soon": "Something extraordinary is coming",
+      "return-home": "Return to homepage"
+    }
 }
