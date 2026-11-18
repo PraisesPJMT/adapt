@@ -14,7 +14,7 @@ const navigation = [
   { href: "/about", key: "about" },
   { href: "/accommodations", key: "accommodations" },
   { href: "/experience", key: "experience" },
-  { href: "/gallery", key: "gallery" },
+  // { href: "/gallery", key: "gallery" },
   { href: "/contact", key: "contact" },
   // { href: "/faqs", key: "faqs" },
 ] as const;
@@ -114,7 +114,7 @@ const Header = () => {
             <div className="md:flex items-center gap-4 hidden">
               <LanguageSwitcher />
 
-              <Link href="/accomodations" className="py-2 px-6 bg-primary text-linen border border-primary">{button("browse-rooms")}</Link>
+              <Link href="/accommodations" className="py-2 px-6 bg-primary text-linen border border-primary">{button("browse-rooms")}</Link>
             </div>
 
             {/* Mobile controls */}
@@ -251,7 +251,7 @@ const Header = () => {
                 transition={{ delay: 0.5 }}
                 className="mt-auto pt-12"
               >
-                <Link href="/accomodations" className="block text-center mb-5 py-2 px-6 bg-primary text-linen border border-primary">{button("browse-rooms")}</Link>
+                <Link href="/accommodations" className="block text-center mb-5 py-2 px-6 bg-primary text-linen border border-primary">{button("browse-rooms")}</Link>
 
                 <div className="mb-5 h-px bg-primary/15" />
 
