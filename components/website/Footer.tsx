@@ -31,7 +31,7 @@ const primaryLinks = [
   { href: "/about", key: "about" },
   { href: "/accommodations", key: "accommodations" },
   { href: "/experience", key: "experience" },
-  { href: "/gallery", key: "gallery" },
+  // { href: "/gallery", key: "gallery" },
   { href: "/contact", key: "contact" },
 ] as const;
 
@@ -40,7 +40,7 @@ const secondaryLinks = [
   { href: "/privacy-notice", key: "privacy-notice" },
   { href: "/site-usage", key: "site-usage" },
   { href: "/faqs", key: "faqs" },
-  { href: "/careers", key: "careers" },
+  // { href: "/careers", key: "careers" },
 ] as const;
 
 const containerVariants = {

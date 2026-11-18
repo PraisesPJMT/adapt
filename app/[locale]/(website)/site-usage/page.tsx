@@ -1,23 +1,32 @@
 "use client"
 
+import Highlight from "@/components/website/legals/Highlight";
+import Reachout from "@/components/website/legals/Reachout";
+import Scroll,{
+  type ScrollData,
+} from "@/components/website/legals/Scroll";
+
 import { useTranslations } from "next-intl";
 
-import Wrapper from "@/components/website/Wrapper";
-import UnderConstruction from "@/components/website/UnderConstruction";
-
 const SiteUsage = () => {
-  const t = useTranslations("Navigation");
+  const site = useTranslations("SiteUsage");
+  const footer = useTranslations("Footer");
+
+  const scrollData: ScrollData = {
+      lastUpdateLabel: site("lastUpdateLabel"),
+      lastUpdate: site("lastUpdate"),
+      sections: site.raw("sections") as ScrollData["sections"],
+  };
 
   return <div className="">
-    <section className="min-h-[20svh] flex items-end">
-      <Wrapper>
-        <h1 className="font-display text-5xl text-mangrove">
-          {t("site-usage")}
-        </h1>
-      </Wrapper>
-    </section>
+    <Highlight title={site("title")} image={"url('/wide_image_2.png')"} position="left"/>
 
-    <UnderConstruction />
+    <Scroll
+      data={scrollData}
+      followLabel={footer("follow")}
+    />
+
+    <Reachout title={site("contact-title")} text={site("contact-text")} />
   </div>
 }
 

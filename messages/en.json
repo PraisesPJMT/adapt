@@ -1,4 +1,3 @@
-
 {
   "Navigation": {
     "home": "Home",
@@ -17,7 +16,7 @@
   "Footer": {
     "copyright": "© 2026 Adapt Resorts. All rights reserved.",
     "punchline": "A world of refined hospitality, where every stay feels like coming home.",
-    "follow": "FOLLOW OUR JOURNEY",
+    "follow": "FOLLOW US",
     "links1": "Explore",
     "links2": "Discover More",
     "contact-title": "Get in Touch"
@@ -28,8 +27,10 @@
   },
   "Buttons": {
     "book-now": "Book Your Stay",
+    "see-room": "See Room",
     "reservations": "Make an Enquiry",
     "browse-rooms": "Explore Accommodations",
+    "explore-experience": "Explore Experience",
     "book-room": "Reserve This Room",
     "contact": "Get in Touch",
     "previous": "Previous",
@@ -59,23 +60,203 @@
       "per-night": "Per Night",
       "guests": "Guests",
       "beds": "Beds",
+      "bathrooms": "Bathrooms",
+      "included": "Included",
+      "not-included": "Not Included",
+      "breakfast": "Breakfast",
+      "wifi": "WiFi",
+      "wifi-icon": "ic:baseline-wifi",
+      "heathen": "Heating",
+      "heathen-icon": "ic:baseline-thermostat",
+      "coffee": "Coffee",
+      "coffee-icon": "ic:outline-coffee-maker",
+      "tv": "TV",
+      "tv-icon": "ic:outline-tv",
+      "laundry-service": "Laundry Service",
+      "laundry-service-icon": "ic:outline-local-laundry-service",
+      "mini-bar": "Mini Bar",
+      "mini-bar-icon": "ic:outline-wine-bar",
+      "spa": "SPA",
+      "spa-icon": "ic:outline-spa",
+      "business-center": "Business Center",
+      "business-center-icon": "ic:outline-business-center",
+      "gym": "GYM",
+      "gym-icon": "ic:outline-fitness-center",
       "rooms": {
         "premium-deluxe": "Premium Deluxe Room",
         "premium-deluxe-description": "An elegant retreat designed for effortless relaxation. Enjoy beautifully appointed interiors, generous amenities, and refined comfort in a space that makes every moment of your stay special.",
         "premium-deluxe-price": "₦200,000",
-
+        "premium-deluxe-breakfast": "included",
         "executive-suite": "Executive Suite",
         "executive-suite-description": "Experience elevated comfort in our sophisticated executive suite. Generous living spaces, tasteful interiors, and thoughtful amenities come together to create a truly distinguished stay.",
         "executive-suite-price": "₦350,000",
-
+        "executive-suite-breakfast": "included",
         "presidential-villa": "Presidential Villa",
         "presidential-villa-description": "Discover the privilege of space and privacy in our exclusive presidential villa. Featuring expansive living areas, elegant furnishings, and exceptional comfort, it is an ideal retreat for an extraordinary getaway.",
         "presidential-villa-price": "₦650,000",
-
+        "presidential-villa-breakfast": "included",
         "celebrity-suit": "Celebrity Suite",
         "celebrity-suit-description": "Step into an exceptional world of comfort and exclusivity. With spacious interiors, sophisticated furnishings, and carefully considered details, the Celebrity Suite offers a memorable experience in refined luxury.",
-        "celebrity-suit-price": "₦960,000"
+        "celebrity-suit-price": "₦960,000",
+        "celebrity-suit-breakfast": "included"
       }
+    }
+  },
+  "About": {
+    "hero": {
+      "title": "About Us",
+      "description": "At Adapt Resorts, we believe every getaway should be more than just a change of scenery. It should be an opportunity to slow down, find inspiration, and create meaningful moments. Thoughtfully designed around comfort, connection, and discovery, our resort offers a welcoming escape where every detail is shaped to make your stay truly memorable."
+    },
+    "reconnect": {
+      "title": "A place carefully designed to help you reconnect",
+      "description": "Step away from the demands of everyday life and embrace a space where you can truly unwind. From thoughtfully curated spaces to peaceful surroundings, every element invites you to reconnect with yourself, the people you love, and the moments that matter most."
+    },
+    "experiences": {
+      "title": "Tens of experiences to enjoy alone or together",
+      "description": "Whether you are seeking a quiet moment to yourself or an adventure to share, there is always something to discover. Explore a variety of experiences designed to bring joy, inspire curiosity, and turn simple moments into lasting memories, whatever your idea of a perfect getaway may be."
+    },
+    "amenities": {
+      "title": "Amenities to help you enjoy like never before",
+      "description": "Enjoy the perfect balance of comfort, convenience, and thoughtful hospitality. Our carefully selected amenities are designed to make every part of your stay effortless, giving you more time to relax, explore, and enjoy everything the resort has to offer."
+    }
+  },
+  "Experience": {
+    "hero": {
+      "title": "Experiences Beyond the Ordinary",
+      "description": "Discover a world of moments worth experiencing. Whether you're seeking relaxation, adventure, or meaningful time with the people who matter, every experience at Adapt Resorts is an invitation to make your stay truly unforgettable."
+    },
+    "intro": {
+      "title": "Moments Made to Be Experienced",
+      "description": "From peaceful escapes to exciting activities, discover experiences thoughtfully curated to suit every mood and occasion. Whether enjoyed alone or shared with loved ones, there's always something special waiting for you."
+    },
+    "closing": {
+      "title": "Make Every Moment Count",
+      "description": "The best memories often come from the simplest moments. Take your time, explore something new, indulge in the little pleasures, and make the most of everything our resort has to offer."
+    },
+    "meals": {
+      "title": "A Taste of Something Special",
+      "description": "Good food has a way of bringing people together. From familiar Nigerian favourites to thoughtfully prepared international classics, enjoy a selection of dishes made to make every meal a memorable part of your stay.",
+      "tabLabel": "Select a meal",
+      "footer": "GOOD FOOD · GOOD COMPANY · MEMORABLE MOMENTS",
+      "tabs": [
+        {
+          "id": "breakfast",
+          "title": "Breakfast",
+          "time": "8:30 AM – 11:00 AM",
+          "foods": [
+            {
+              "name": "Nigerian Breakfast Platter",
+              "description": "A satisfying combination of fried eggs, sausages, baked beans, toast and fresh vegetables."
+            },
+            {
+              "name": "Yam and Egg Sauce",
+              "description": "Soft-boiled or fried yam served with a rich, freshly prepared tomato and pepper egg sauce."
+            },
+            {
+              "name": "Akara and Pap",
+              "description": "Golden bean fritters paired with smooth, warm Nigerian pap."
+            },
+            {
+              "name": "Moi Moi",
+              "description": "Steamed bean pudding prepared with peppers and a delicate blend of traditional seasonings."
+            },
+            {
+              "name": "Pancakes and Maple Syrup",
+              "description": "Fluffy pancakes served with maple syrup, butter and fresh seasonal fruit."
+            },
+            {
+              "name": "French Toast",
+              "description": "Golden slices of egg-dipped bread served with syrup and fresh fruit."
+            },
+            {
+              "name": "English Breakfast",
+              "description": "Eggs, grilled sausages, sautéed mushrooms, baked beans, tomatoes and toast."
+            },
+            {
+              "name": "Fresh Fruit and Yoghurt Bowl",
+              "description": "A refreshing selection of seasonal fruits served with creamy yoghurt and crunchy granola."
+            }
+          ]
+        },
+        {
+          "id": "lunch",
+          "title": "Lunch",
+          "time": "12:00 PM – 2:30 PM",
+          "foods": [
+            {
+              "name": "Jollof Rice and Grilled Chicken",
+              "description": "Classic Nigerian party-style jollof served with succulent grilled chicken and fried plantain."
+            },
+            {
+              "name": "Ofada Rice and Ayamase",
+              "description": "Locally grown rice served with rich green pepper sauce and assorted meats."
+            },
+            {
+              "name": "Fried Rice and Grilled Fish",
+              "description": "Colourful Nigerian-style fried rice accompanied by seasoned grilled fish."
+            },
+            {
+              "name": "Egusi Soup and Pounded Yam",
+              "description": "A hearty traditional melon-seed soup with leafy vegetables, assorted meats and smooth pounded yam."
+            },
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "description": "Crisp lettuce, grilled chicken, parmesan, croutons and classic Caesar dressing."
+            },
+            {
+              "name": "Beef Burger and Fries",
+              "description": "A juicy beef patty layered with fresh vegetables and served with golden fries."
+            },
+            {
+              "name": "Spaghetti Bolognese",
+              "description": "Pasta served with a slow-cooked minced beef and tomato sauce."
+            },
+            {
+              "name": "Grilled Fish and Chips",
+              "description": "Seasoned fish served with crisp fries, fresh salad and a light tartar sauce."
+            }
+          ]
+        },
+        {
+          "id": "dinner",
+          "title": "Dinner",
+          "time": "7:00 PM – 10:00 PM",
+          "foods": [
+            {
+              "name": "Nigerian Pepper Soup",
+              "description": "A warming, aromatic broth prepared with traditional spices and your choice of fish or assorted meats."
+            },
+            {
+              "name": "Native Rice",
+              "description": "A richly seasoned Nigerian rice dish prepared with palm oil, seafood and traditional spices."
+            },
+            {
+              "name": "Catfish and Plantain",
+              "description": "Fresh catfish prepared in a spicy sauce and served with sweet fried plantain."
+            },
+            {
+              "name": "Efo Riro and Swallow",
+              "description": "Rich Yoruba-style spinach stew with assorted meats, served with your choice of swallow."
+            },
+            {
+              "name": "Grilled Salmon",
+              "description": "Delicately seasoned salmon fillet served with roasted vegetables and a light lemon butter sauce."
+            },
+            {
+              "name": "Creamy Alfredo Pasta",
+              "description": "Tender pasta coated in a smooth parmesan cream sauce with herbs and grilled chicken."
+            },
+            {
+              "name": "Beef Steak",
+              "description": "A tender grilled beef steak served with mashed potatoes, seasonal vegetables and a savoury sauce."
+            },
+            {
+              "name": "Roasted Chicken",
+              "description": "Herb-seasoned roasted chicken served with buttery potatoes and fresh garden vegetables."
+            }
+          ]
+        }
+      ]
     }
   },
   "Contact": {
@@ -84,10 +265,8 @@
     "tel2": "+2348012345678",
     "mail": "contact@adapt.com",
     "mail2": "info@adapt.com",
-
     "title": "Let's Connect",
     "punchline": "Whether you're planning your next escape, have a question about our accommodations, or simply wish to learn more about Adapt Resorts, we're always delighted to hear from you.",
-
     "map": {
       "eyebrow": "Find Your Way to Us",
       "title": "A Destination Worth Discovering",
@@ -96,7 +275,6 @@
       "country": "Nigeria, West Africa",
       "directions": "Get Directions"
     },
-
     "form": {
       "eyebrow": "We'd Love to Hear From You",
       "title": "Let's Start a Conversation.",
@@ -140,5 +318,1547 @@
     "status": "In Progress",
     "coming-soon": "Something Extraordinary Is Coming",
     "return-home": "Return to Homepage"
+  },
+  "Reservations": {
+    "roomForm": {
+      "title": "Reserve Room",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "guestsLabel": "Number of Guests",
+      "guestCount": "{count, plural, one {# Guest} other {# Guests}}",
+      "removeGuest": "Remove one guest",
+      "addGuest": "Add one guest"
+    }
+  },
+  "LegalNotice": {
+    "title": "Legal Notice",
+    "contact-title": "Reach Out to Us",
+    "contact-text": "If you have questions, concerns or requests relating to this Privacy Policy or the personal information we process, please contact Adapt Resorts using the details below:",
+    "lastUpdateLabel": "Last Update",
+    "lastUpdate": "17th July, 2026",
+    "sections": [
+      {
+        "title": "Website Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "This website is published under the Adapt name."
+          },
+          {
+            "type": "paragraph",
+            "text": "Adapt develops and operates hospitality properties shaped by their surrounding landscapes, communities and local contexts."
+          },
+          {
+            "type": "paragraph",
+            "text": "The information below identifies the organisation responsible for this website and the ownership of its content."
+          }
+        ]
+      },
+      {
+        "title": "Website Publisher",
+        "content": [
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Legal entity:",
+                "value": "Adapt Resorts"
+              },
+              {
+                "label": "Company registration number:",
+                "value": "RC123456789"
+              },
+              {
+                "label": "Registered office:",
+                "value": "No. 1234 Adapt Avenue, Adapt Street, Akwa Ibom State, Nigeria"
+              },
+              {
+                "label": "Country of registration:",
+                "value": "Nigeria"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Adapt is the brand name used on this website. Where applicable, references to Adapt should be understood as references to the legal entity identified above."
+          }
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Unless otherwise stated, the content published on this website belongs to Adapt or is used with permission from its respective rights holders."
+          },
+          {
+            "type": "paragraph",
+            "text": "This includes written material, photographs, illustrations, graphic elements, logos, visual designs and other creative content."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Adapt name, logo and associated brand elements are protected by applicable intellectual property laws."
+          },
+          {
+            "type": "paragraph",
+            "text": "No material from this website may be reproduced, distributed, modified or used for commercial purposes without prior written permission from the relevant rights holder, except where permitted by law."
+          },
+          {
+            "type": "paragraph",
+            "text": "Requests concerning the use of website content or brand assets should be directed to the contact address provided above."
+          }
+        ]
+      },
+      {
+        "title": "Third-Party Materials",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Some materials displayed on this website may belong to third parties or be used under licence."
+          },
+          {
+            "type": "paragraph",
+            "text": "Such materials remain the property of their respective owners and are subject to the terms of their applicable permissions or licences."
+          }
+        ]
+      }
+    ]
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "contact-title": "Contact Us",
+    "contact-text": "For enquiries concerning this Privacy Policy, website ownership or intellectual property, please contact:",
+    "lastUpdateLabel": "Last Updated",
+    "lastUpdate": "17th November, 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "At Adapt Resorts, we recognise that privacy is an important part of the trust our guests place in us. We are committed to respecting your privacy and handling your personal information responsibly, transparently and securely."
+          },
+          {
+            "type": "paragraph",
+            "text": "This Privacy Policy explains how Adapt Resorts collects, uses, stores, shares and protects personal information when you visit our website, make an enquiry, submit a reservation request, communicate with us or use services associated with our hospitality properties."
+          },
+          {
+            "type": "paragraph",
+            "text": "Our approach to hospitality is shaped by the landscapes, communities and local contexts in which we operate. We apply the same care to the personal information entrusted to us."
+          },
+          {
+            "type": "paragraph",
+            "text": "By using our website or providing personal information to us, you acknowledge that you have had the opportunity to read this Privacy Policy. Where consent is required by applicable law, we will request it separately and clearly."
+          }
+        ]
+      },
+      {
+        "title": "Who We Are",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "This website is published under the Adapt name. Adapt Resorts is the brand name used by the organisation responsible for the website and the hospitality services described on it."
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Organisation:",
+                "value": "Adapt Resorts"
+              },
+              {
+                "label": "Legal entity:",
+                "value": "Adapt Resorts"
+              },
+              {
+                "label": "Registered office:",
+                "value": "No. 1234 Adapt Avenue, Adapt Street, Akwa Ibom State, Nigeria"
+              },
+              {
+                "label": "Country:",
+                "value": "Nigeria"
+              },
+              {
+                "label": "Privacy contact:",
+                "value": "[Insert official privacy contact email]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "For the purposes of applicable data protection laws, Adapt Resorts acts as the data controller in relation to personal information collected and processed for the purposes described in this Policy, unless another organisation is identified as the responsible controller for a particular service or activity."
+          }
+        ]
+      },
+      {
+        "title": "Information We Collect",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The information we collect depends on how you interact with us, the services you request and the nature of your relationship with Adapt Resorts. We aim to collect only information that is relevant and reasonably necessary for the purposes for which it is used."
+          },
+          {
+            "type": "paragraph",
+            "text": "Personal information you provide directly may include the following:"
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Identity information:",
+                "value": "Your full name, title and, where necessary, date of birth or other information required to verify your identity."
+              },
+              {
+                "label": "Contact information:",
+                "value": "Your email address, telephone number, residential address and preferred method of communication."
+              },
+              {
+                "label": "Reservation information:",
+                "value": "Arrival and departure dates, number of guests, accommodation preferences, booking references, special requests and details relating to your stay."
+              },
+              {
+                "label": "Payment information:",
+                "value": "Payment confirmations, transaction references, billing details and other information required to process or verify payments. Payment card details may be collected and processed directly by our authorised payment providers."
+              },
+              {
+                "label": "Communication information:",
+                "value": "Messages, enquiries, feedback, reviews, complaints and other correspondence you send to us."
+              },
+              {
+                "label": "Guest preferences:",
+                "value": "Room preferences, dietary requirements, accessibility requests, preferred experiences and other service preferences you voluntarily share with us."
+              },
+              {
+                "label": "Event and experience information:",
+                "value": "Details required to organise events, activities, excursions, dining arrangements or other experiences requested through our properties."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "We may also receive information about other guests when you make a reservation or arrange an experience on their behalf. You should ensure that you are authorised to provide their information and that they are aware of the relevant arrangements."
+          }
+        ]
+      },
+      {
+        "title": "Information Collected Automatically",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "When you visit our website, certain technical information may be collected automatically through your browser, device and the technologies used to operate our website."
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Device information:",
+                "value": "Device type, operating system, browser type, screen resolution and language preferences."
+              },
+              {
+                "label": "Technical identifiers:",
+                "value": "Internet Protocol (IP) address, device identifiers and other technical information used to establish and maintain website connections."
+              },
+              {
+                "label": "Website activity:",
+                "value": "Pages visited, links selected, time spent on pages, referring websites and general browsing interactions."
+              },
+              {
+                "label": "Location information:",
+                "value": "Approximate location information that may be inferred from your IP address or other technical information, where available."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "This information helps us understand how visitors interact with our website, maintain its performance, identify technical issues and improve the experience we provide."
+          }
+        ]
+      },
+      {
+        "title": "Information From Other Sources",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "In certain circumstances, we may receive personal information from organisations involved in providing services you have requested."
+          },
+          {
+            "type": "paragraph",
+            "text": "These sources may include travel agents, reservation platforms, authorised booking partners, payment providers, event organisers, business partners and other service providers."
+          },
+          {
+            "type": "paragraph",
+            "text": "For example, where a reservation is made through a third-party booking platform, we may receive the information necessary to identify your reservation, communicate with you and arrange your accommodation."
+          },
+          {
+            "type": "paragraph",
+            "text": "We may also receive information from publicly available sources where it is lawful and relevant to a legitimate business or operational purpose."
+          }
+        ]
+      },
+      {
+        "title": "How We Use Your Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We use personal information to operate our website, respond to enquiries, facilitate reservations and provide hospitality services. Depending on your interaction with us, this may include the following purposes:"
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Reservations and bookings:",
+                "value": "To receive and manage reservation requests, confirm bookings, coordinate accommodation arrangements and communicate important booking information."
+              },
+              {
+                "label": "Guest services:",
+                "value": "To arrange check-in and check-out, provide accommodation services, respond to guest requests and coordinate services during your stay."
+              },
+              {
+                "label": "Payments and transactions:",
+                "value": "To facilitate payments, process refunds where applicable, verify transactions, manage invoices and maintain appropriate financial records."
+              },
+              {
+                "label": "Personalised hospitality:",
+                "value": "To take account of preferences and special requests you voluntarily provide so that we can make relevant arrangements for your stay."
+              },
+              {
+                "label": "Experiences and events:",
+                "value": "To coordinate activities, dining, excursions, events and other experiences you request."
+              },
+              {
+                "label": "Communication:",
+                "value": "To respond to questions, provide service updates, send reservation confirmations and communicate information relevant to your relationship with us."
+              },
+              {
+                "label": "Website operations:",
+                "value": "To maintain, troubleshoot, monitor and improve our website, digital services and overall user experience."
+              },
+              {
+                "label": "Safety and security:",
+                "value": "To protect our guests, employees, visitors, properties and services, and to investigate suspected fraud, misuse or security incidents."
+              },
+              {
+                "label": "Legal and regulatory obligations:",
+                "value": "To comply with applicable laws, regulations, lawful requests and record-keeping requirements."
+              },
+              {
+                "label": "Marketing and communications:",
+                "value": "To send information about our properties, experiences, services, offers and events where permitted by applicable law and, where required, with your consent."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lawful Basis for Processing",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We process personal information only where there is a lawful basis for doing so under applicable data protection legislation. Depending on the circumstances, our lawful bases may include:"
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Contractual necessity:",
+                "value": "Processing required to take steps at your request before entering into a contract or to perform a reservation, booking or service agreement with you."
+              },
+              {
+                "label": "Legal obligations:",
+                "value": "Processing necessary to comply with applicable legal, tax, accounting, regulatory or other statutory obligations."
+              },
+              {
+                "label": "Legitimate interests:",
+                "value": "Processing necessary for legitimate business purposes, such as maintaining our website, improving services, protecting our properties and preventing fraud, provided those interests do not override your rights and freedoms."
+              },
+              {
+                "label": "Consent:",
+                "value": "Processing based on your freely given consent, such as certain marketing communications or optional cookies, where consent is required."
+              },
+              {
+                "label": "Vital interests:",
+                "value": "Processing necessary to protect your life or the vital interests of another individual in an emergency."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Where we rely on consent, you may withdraw it at any time. Withdrawal does not affect the lawfulness of processing carried out before the withdrawal."
+          }
+        ]
+      },
+      {
+        "title": "Reservations and Guest Services",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "When you make a reservation or submit a booking enquiry, we use the information you provide to manage your request and coordinate the services associated with your stay."
+          },
+          {
+            "type": "paragraph",
+            "text": "This may involve communicating with the relevant property, accommodation team, reservation personnel and authorised service providers responsible for fulfilling your booking."
+          },
+          {
+            "type": "paragraph",
+            "text": "We may contact you before, during or after your stay regarding reservation confirmations, payment arrangements, arrival information, changes to your booking, service requests or feedback."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where you make a booking for another person, we may process the information of the accompanying guest to the extent necessary to arrange the reservation and provide the requested services."
+          },
+          {
+            "type": "paragraph",
+            "text": "Information you provide about special requirements, such as dietary preferences or accessibility arrangements, will be handled with appropriate care and used for relevant service purposes."
+          }
+        ]
+      },
+      {
+        "title": "Payment Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Where payments are required for reservations, accommodation or other services, we may use authorised third-party payment processors to facilitate transactions."
+          },
+          {
+            "type": "paragraph",
+            "text": "These providers may collect and process payment card details and other financial information under their own security and privacy arrangements."
+          },
+          {
+            "type": "paragraph",
+            "text": "We may receive transaction confirmations, payment status, billing information, partial payment identifiers and references necessary to reconcile payments, manage refunds and maintain financial records."
+          },
+          {
+            "type": "paragraph",
+            "text": "We do not intend to store complete payment card security codes or retain full payment card details on our website unless a secure payment arrangement specifically requires and lawfully permits it."
+          },
+          {
+            "type": "paragraph",
+            "text": "For questions concerning the processing of payment information by a third-party provider, you may also need to consult that provider's privacy policy."
+          }
+        ]
+      },
+      {
+        "title": "Cookies and Similar Technologies",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Our website may use cookies and similar technologies to support essential website functions, remember preferences, understand website performance and improve your browsing experience."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cookies are small text files stored on your device when you visit a website. Similar technologies may include pixels, tags, scripts and local storage technologies."
+          },
+          {
+            "type": "paragraph",
+            "text": "Depending on the technologies implemented on our website, cookies may fall into the following categories:"
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Strictly necessary cookies:",
+                "value": "Required for core website functions, security, navigation and the operation of essential services."
+              },
+              {
+                "label": "Functional cookies:",
+                "value": "Help remember your preferences and choices to provide a more consistent browsing experience."
+              },
+              {
+                "label": "Analytics cookies:",
+                "value": "Help us understand how visitors use our website, identify performance issues and improve our digital services."
+              },
+              {
+                "label": "Marketing cookies:",
+                "value": "May be used to measure advertising effectiveness or deliver relevant promotional content, where such technologies are implemented and permitted by law."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Where required by applicable law, we will request your consent before placing non-essential cookies or similar tracking technologies on your device."
+          },
+          {
+            "type": "paragraph",
+            "text": "You may manage cookie preferences through any cookie settings tool made available on our website or through your browser settings. Disabling certain cookies may affect the availability or functionality of some website features."
+          },
+          {
+            "type": "paragraph",
+            "text": "The cookies and tracking technologies actually used may change as our website and service providers evolve. Where applicable, additional information will be provided through our cookie settings or a separate Cookie Policy."
+          }
+        ]
+      },
+      {
+        "title": "Marketing and Communication Preferences",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We may use your contact information to share news, updates, offers, experiences and other information about Adapt Resorts where permitted by applicable law."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where consent is required, we will obtain it before sending promotional communications. You can withdraw your consent or unsubscribe at any time using the instructions included in the relevant communication."
+          },
+          {
+            "type": "paragraph",
+            "text": "Choosing not to receive marketing communications will not prevent us from sending essential service messages relating to your reservations, transactions, security or other matters necessary to fulfil a service you have requested."
+          },
+          {
+            "type": "paragraph",
+            "text": "We do not treat a request for information or a reservation enquiry as automatic consent to receive unrelated marketing communications."
+          }
+        ]
+      },
+      {
+        "title": "When We Share Your Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We do not sell your personal information. We may share information with selected organisations where necessary to provide our services, operate our business or comply with applicable legal obligations."
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Our properties and operational teams:",
+                "value": "Relevant guest and reservation information may be shared with the property and internal teams responsible for managing your booking and providing your requested services."
+              },
+              {
+                "label": "Reservation and booking partners:",
+                "value": "Where you book through an authorised platform or travel partner, relevant information may be exchanged to process and fulfil the reservation."
+              },
+              {
+                "label": "Payment providers:",
+                "value": "Information necessary to process payments, verify transactions, manage refunds and prevent payment fraud may be shared with payment processors and financial institutions."
+              },
+              {
+                "label": "Technology and hosting providers:",
+                "value": "We may use service providers that support website hosting, cloud infrastructure, email delivery, data storage, security, analytics and other technical operations."
+              },
+              {
+                "label": "Hospitality service providers:",
+                "value": "Where necessary to fulfil a request, relevant information may be shared with providers involved in transportation, dining, excursions, events, activities or other guest services."
+              },
+              {
+                "label": "Professional advisers:",
+                "value": "We may share information with legal advisers, auditors, insurers, consultants and other professional service providers where necessary for legitimate business or legal purposes."
+              },
+              {
+                "label": "Government and regulatory authorities:",
+                "value": "Information may be disclosed where required by law, regulation, court order or another valid legal process, or where necessary to protect the rights, safety and security of individuals or our organisation."
+              },
+              {
+                "label": "Business transactions:",
+                "value": "In connection with a proposed or completed merger, restructuring, acquisition, financing or transfer of business assets, personal information may be shared subject to appropriate confidentiality and legal safeguards."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Where third parties process personal information on our behalf, we take appropriate steps to require them to handle that information securely and only for authorised purposes."
+          }
+        ]
+      },
+      {
+        "title": "Third-Party Websites and Services",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Our website may contain links to third-party websites, social media platforms, booking services or other external digital services."
+          },
+          {
+            "type": "paragraph",
+            "text": "These services are operated independently and may have their own privacy policies, cookie practices and terms of service."
+          },
+          {
+            "type": "paragraph",
+            "text": "We are not responsible for the privacy practices or content of third-party websites and services that we do not operate or control. We encourage you to review their privacy information before submitting personal information to them."
+          },
+          {
+            "type": "paragraph",
+            "text": "The presence of a third-party link on our website does not, by itself, mean that we endorse that organisation or its privacy practices."
+          }
+        ]
+      },
+      {
+        "title": "International Transfers of Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Some of our service providers, technology systems or business partners may operate outside Nigeria. As a result, personal information may need to be transferred to or accessed from another country."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where personal information is transferred outside Nigeria, we will take steps to ensure that the transfer is permitted under applicable data protection law and that appropriate safeguards are in place."
+          },
+          {
+            "type": "paragraph",
+            "text": "Depending on the circumstances, these safeguards may include an adequate level of protection in the receiving jurisdiction, appropriate contractual protections or another lawful transfer mechanism recognised by applicable law."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where required, we will provide additional information about relevant international transfers and the safeguards used to protect your information."
+          }
+        ]
+      },
+      {
+        "title": "How Long We Keep Your Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We retain personal information only for as long as it is reasonably necessary to fulfil the purposes for which it was collected, including providing requested services, maintaining appropriate business records and meeting legal or regulatory obligations."
+          },
+          {
+            "type": "paragraph",
+            "text": "Retention periods may vary depending on the type of information, the nature of your interaction with us, applicable legal requirements and whether the information is required to establish, exercise or defend legal claims."
+          },
+          {
+            "type": "paragraph",
+            "text": "For example, reservation and transaction records may need to be retained for financial, accounting or regulatory purposes, while general enquiries may be retained for a shorter period depending on their nature."
+          },
+          {
+            "type": "paragraph",
+            "text": "When personal information is no longer required, we will take reasonable steps to securely delete, destroy or anonymise it, subject to applicable legal requirements and legitimate retention needs."
+          }
+        ]
+      },
+      {
+        "title": "How We Protect Your Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We take the security of personal information seriously and seek to implement appropriate technical and organisational measures to protect it against unauthorised access, disclosure, alteration, loss or destruction."
+          },
+          {
+            "type": "paragraph",
+            "text": "Depending on the nature of the information and the risks involved, safeguards may include access controls, secure communication channels, restricted permissions, staff awareness measures, service-provider security requirements and appropriate monitoring of our systems."
+          },
+          {
+            "type": "paragraph",
+            "text": "Access to personal information is intended to be limited to individuals and service providers who need it for authorised business, operational or legal purposes."
+          },
+          {
+            "type": "paragraph",
+            "text": "No website, electronic transmission or storage system can be guaranteed to be completely secure. Although we take reasonable precautions, we cannot promise absolute security."
+          }
+        ]
+      },
+      {
+        "title": "Personal Information Relating to Children",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Our hospitality services may involve families and guests travelling with children. We recognise the importance of protecting children's personal information."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where information relating to a child is required for a reservation, accommodation arrangement or guest service, we expect it to be provided by a parent, guardian or another person legally authorised to act on the child's behalf."
+          },
+          {
+            "type": "paragraph",
+            "text": "We do not knowingly seek to collect children's personal information through our website for unrelated marketing purposes. Where applicable law requires parental or guardian consent, we will take appropriate steps to obtain it."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you believe that a child has provided personal information to us without appropriate authorisation, please contact us so that we can review the matter."
+          }
+        ]
+      },
+      {
+        "title": "Sensitive Personal Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Certain information, such as health-related details, dietary restrictions, accessibility requirements or information that may reveal other sensitive personal characteristics, may receive additional protection under applicable data protection law."
+          },
+          {
+            "type": "paragraph",
+            "text": "We only seek to collect such information where it is relevant to a specific service, request, safety requirement or other lawful purpose."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where required, we will obtain your explicit consent or rely on another lawful condition before processing sensitive personal information."
+          },
+          {
+            "type": "paragraph",
+            "text": "We encourage you to share only the information necessary for us to make the arrangements you request."
+          }
+        ]
+      },
+      {
+        "title": "Your Privacy Rights",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Subject to applicable law and any relevant limitations, you may have rights in relation to the personal information we hold about you."
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Right to be informed:",
+                "value": "To receive clear information about how and why your personal information is collected and processed."
+              },
+              {
+                "label": "Right of access:",
+                "value": "To request confirmation of whether we process your personal information and obtain access to relevant information."
+              },
+              {
+                "label": "Right to rectification:",
+                "value": "To request correction of personal information that is inaccurate, incomplete or out of date."
+              },
+              {
+                "label": "Right to erasure:",
+                "value": "To request deletion of your personal information where the applicable legal conditions are satisfied."
+              },
+              {
+                "label": "Right to restrict processing:",
+                "value": "To request that we limit the processing of your personal information in circumstances recognised by applicable law."
+              },
+              {
+                "label": "Right to object:",
+                "value": "To object to certain processing activities, including direct marketing, where applicable."
+              },
+              {
+                "label": "Right to withdraw consent:",
+                "value": "To withdraw consent where processing is based on your consent. This does not affect processing that took place lawfully before withdrawal."
+              },
+              {
+                "label": "Right to data portability:",
+                "value": "To request a copy of certain personal information in a structured, commonly used and machine-readable format, where applicable."
+              },
+              {
+                "label": "Rights relating to automated decisions:",
+                "value": "To exercise applicable rights where decisions with significant effects are made solely through automated processing."
+              },
+              {
+                "label": "Right to lodge a complaint:",
+                "value": "To raise a concern with us or lodge a complaint with the relevant data protection authority."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The availability and scope of these rights depend on the applicable law and the circumstances of the processing. Certain requests may be limited where we have a lawful reason to retain or continue processing the information."
+          }
+        ]
+      },
+      {
+        "title": "How to Exercise Your Privacy Rights",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "If you wish to exercise a privacy right, ask a question about this Policy or raise a concern about how we handle your personal information, you may contact us using the privacy contact details provided below."
+          },
+          {
+            "type": "paragraph",
+            "text": "To help us respond, please describe your request and provide sufficient information for us to identify the relevant records. We may request additional information where reasonably necessary to verify your identity and protect your information from unauthorised disclosure."
+          },
+          {
+            "type": "paragraph",
+            "text": "We will review and respond to requests within the time required by applicable law. Where we are unable to fulfil a request, we will explain the reasons where legally permitted."
+          },
+          {
+            "type": "paragraph",
+            "text": "You may also lodge a complaint with the Nigeria Data Protection Commission or another competent supervisory authority where you believe your personal information has been handled unlawfully."
+          }
+        ]
+      },
+      {
+        "title": "Data Protection and Security Incidents",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "If we become aware of a personal data breach affecting information under our control, we will assess the incident and take appropriate steps to investigate, contain and address it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where notification is required by applicable law, we will notify the relevant regulatory authority and affected individuals within the applicable timeframes and in the manner required by law."
+          },
+          {
+            "type": "paragraph",
+            "text": "Any communication to affected individuals will, where required, explain the nature of the incident, its likely consequences and the measures taken or recommended to reduce potential harm."
+          }
+        ]
+      },
+      {
+        "title": "Changes to This Privacy Policy",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We may update this Privacy Policy from time to time to reflect changes in our services, business operations, technology, legal obligations or data protection practices."
+          },
+          {
+            "type": "paragraph",
+            "text": "When we make changes, we will publish the revised version on this website and update the Last Updated date displayed at the beginning of the Policy."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where a significant change requires additional notice or consent under applicable law, we will take appropriate steps to provide it."
+          },
+          {
+            "type": "paragraph",
+            "text": "We encourage you to review this page periodically to remain informed about how we protect your personal information."
+          }
+        ]
+      }
+    ]
+  },
+  "SiteUsage": {
+    "title": "Site Usage",
+    "contact-title": "Tell Us What You Think",
+    "contact-text": "If you have questions about these Site Usage Terms, experience a problem while using our website or wish to report suspected misuse, you may contact Adapt Resorts through the details below:",
+    "lastUpdateLabel": "Last Updated",
+    "lastUpdate": "17th November, 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Welcome to the Adapt Resorts website. These Site Usage Terms explain the conditions under which you may access and use our website, its content and the digital services made available through it."
+          },
+          {
+            "type": "paragraph",
+            "text": "By accessing or using this website, you agree to comply with these Terms. If you do not agree with any part of them, you should discontinue using the website."
+          },
+          {
+            "type": "paragraph",
+            "text": "These Terms apply to all visitors, prospective guests, customers and other individuals accessing the website, whether through a computer, mobile device or other internet-enabled device."
+          },
+          {
+            "type": "paragraph",
+            "text": "These Terms should be read alongside our Legal Notice and Privacy Policy, which provide additional information about our organisation, intellectual property and the handling of personal information."
+          }
+        ]
+      },
+      {
+        "title": "About This Website",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "This website is published under the Adapt name and provides information about Adapt Resorts, our hospitality properties, accommodation offerings, experiences and related services."
+          },
+          {
+            "type": "paragraph",
+            "text": "The website is intended to help visitors discover our properties, explore available services, submit enquiries and make or request reservations where such functionality is available."
+          },
+          {
+            "type": "paragraph",
+            "text": "The content is provided for general informational and promotional purposes. Information displayed on the website does not necessarily constitute a binding offer to provide accommodation, experiences or other services."
+          }
+        ]
+      },
+      {
+        "title": "Acceptance of These Terms",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "By visiting, browsing or otherwise using this website, you acknowledge that you have read and understood these Terms and agree to comply with them."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you access the website on behalf of another person or organisation, you are responsible for ensuring that you have the authority to do so and that the relevant individual or organisation complies with these Terms."
+          },
+          {
+            "type": "paragraph",
+            "text": "Additional terms may apply to particular services, reservations, promotional offers, events or experiences. Where additional terms are provided, they will apply alongside these Terms and will take precedence where they expressly address a specific service or arrangement."
+          }
+        ]
+      },
+      {
+        "title": "Permitted Use",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "You may use this website for lawful, personal and legitimate purposes, including discovering our properties, reviewing accommodation information, exploring experiences, contacting our team and making reservation enquiries."
+          },
+          {
+            "type": "paragraph",
+            "text": "When using the website, you agree to:"
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Lawful access:",
+                "value": "Use the website in accordance with applicable laws, regulations and these Terms."
+              },
+              {
+                "label": "Accurate information:",
+                "value": "Provide accurate and complete information when submitting enquiries, forms or reservation requests."
+              },
+              {
+                "label": "Respectful conduct:",
+                "value": "Avoid activities that interfere with the experience, rights or security of other visitors or our organisation."
+              },
+              {
+                "label": "Responsible interaction:",
+                "value": "Use website features and communication channels only for their intended purposes."
+              },
+              {
+                "label": "Security:",
+                "value": "Avoid introducing malicious software, harmful code or other materials that could compromise the website or its users."
+              },
+              {
+                "label": "Content ownership:",
+                "value": "Respect the intellectual property rights of Adapt Resorts and other rights holders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Prohibited Activities",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "You must not use this website in a manner that may compromise its operation, security, integrity or availability, or interfere with the rights of other individuals."
+          },
+          {
+            "type": "paragraph",
+            "text": "Prohibited activities include, but are not limited to:"
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Unauthorised access:",
+                "value": "Attempting to access restricted areas, accounts, systems, databases or information without permission."
+              },
+              {
+                "label": "Security interference:",
+                "value": "Testing, scanning or exploiting website vulnerabilities without prior written authorisation."
+              },
+              {
+                "label": "Malicious software:",
+                "value": "Uploading, distributing or transmitting viruses, malware, malicious scripts or other harmful code."
+              },
+              {
+                "label": "Automated extraction:",
+                "value": "Using bots, scrapers, crawlers or automated tools to extract website content or data without our prior written permission, except where access is permitted by law or applicable technical standards."
+              },
+              {
+                "label": "Service disruption:",
+                "value": "Attempting to overload, disrupt, damage or interfere with the website, its servers or associated infrastructure."
+              },
+              {
+                "label": "False information:",
+                "value": "Submitting fraudulent, misleading or deliberately inaccurate information through website forms or communication channels."
+              },
+              {
+                "label": "Impersonation:",
+                "value": "Misrepresenting your identity, impersonating another person or falsely claiming an association with Adapt Resorts."
+              },
+              {
+                "label": "Unlawful conduct:",
+                "value": "Using the website to engage in activities that violate applicable laws, infringe the rights of others or facilitate unlawful conduct."
+              },
+              {
+                "label": "Unauthorised commercial use:",
+                "value": "Using website content, services or communication channels for unsolicited advertising, commercial solicitation or other unauthorised promotional activities."
+              },
+              {
+                "label": "Rights infringement:",
+                "value": "Copying, distributing, modifying or otherwise using protected content without the necessary authorisation."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "We reserve the right to investigate suspected misuse and take appropriate action where necessary to protect our website, services, visitors and organisation."
+          }
+        ]
+      },
+      {
+        "title": "Website Information and Accuracy",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We make reasonable efforts to ensure that the information presented on our website is accurate, relevant and up to date. However, website content may occasionally contain errors, omissions or information that has not yet been updated."
+          },
+          {
+            "type": "paragraph",
+            "text": "Descriptions of accommodation, facilities, services, experiences, photographs, illustrations and other materials are intended to provide a general representation of our offerings."
+          },
+          {
+            "type": "paragraph",
+            "text": "Actual accommodation layouts, furnishings, views, facilities, surroundings and other details may vary depending on the property, room category, season, operational conditions or other circumstances."
+          },
+          {
+            "type": "paragraph",
+            "text": "We reserve the right to correct errors, update descriptions, change website content or remove outdated information at any time without prior notice, subject to applicable law and any binding contractual commitments."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you require confirmation of a particular facility, service or property feature before making a reservation, we encourage you to contact our team directly."
+          }
+        ]
+      },
+      {
+        "title": "Accommodation and Property Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Information about our accommodation and properties is provided to help visitors understand the nature of the hospitality experiences offered by Adapt Resorts."
+          },
+          {
+            "type": "paragraph",
+            "text": "Room categories, facilities, amenities, photographs, views, capacity information and property descriptions are illustrative and may be subject to availability and operational changes."
+          },
+          {
+            "type": "paragraph",
+            "text": "Some services or facilities may be seasonal, temporarily unavailable, subject to maintenance or dependent on weather and local operating conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "The availability of a particular accommodation type, facility or experience is not guaranteed merely because it appears on the website. Confirmation should be obtained through the relevant reservation or enquiry process."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where information about accessibility, special facilities or individual requirements is important to your visit, please contact the relevant property before confirming your arrangements."
+          }
+        ]
+      },
+      {
+        "title": "Reservations and Booking Enquiries",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "The website may provide reservation forms, enquiry forms, booking links or other tools that allow visitors to request accommodation or hospitality services."
+          },
+          {
+            "type": "paragraph",
+            "text": "Submitting an enquiry or reservation request does not automatically guarantee availability, acceptance or confirmation of a booking."
+          },
+          {
+            "type": "paragraph",
+            "text": "A reservation will be considered confirmed only when the applicable confirmation has been issued through the relevant booking channel and any required conditions have been satisfied."
+          },
+          {
+            "type": "paragraph",
+            "text": "Rates, availability, minimum stay requirements, payment conditions, cancellation rules and other reservation conditions may vary depending on the property, accommodation type, dates and promotional arrangements."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where a reservation is completed through a third-party booking platform, the terms and conditions of that platform may also apply."
+          },
+          {
+            "type": "paragraph",
+            "text": "Specific reservation conditions, including deposits, cancellation charges, refund arrangements, check-in and check-out times, and guest requirements, will be communicated through the applicable booking process or reservation documentation."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where a conflict exists between these general Site Usage Terms and the specific terms of a confirmed reservation, the applicable reservation terms will govern the booking to the extent of the conflict."
+          }
+        ]
+      },
+      {
+        "title": "Rates, Prices and Promotional Offers",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Prices, rates, promotional offers and other commercial information displayed on our website are subject to change, availability and applicable conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "Unless expressly stated otherwise, prices shown may not include all applicable taxes, levies, service charges or additional fees."
+          },
+          {
+            "type": "paragraph",
+            "text": "The final amount payable will be communicated through the relevant reservation or payment process."
+          },
+          {
+            "type": "paragraph",
+            "text": "Promotional offers may be subject to eligibility requirements, booking periods, travel dates, minimum stays, availability restrictions and other specific conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "Unless otherwise stated, promotional offers cannot be assumed to be combinable with other discounts or special arrangements."
+          },
+          {
+            "type": "paragraph",
+            "text": "We reserve the right to correct pricing errors and withdraw or amend promotional offers where permitted by applicable law. Any confirmed reservation will remain subject to its applicable booking terms and legal protections."
+          }
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Unless otherwise stated, all intellectual property rights in the website and its content belong to Adapt Resorts or are used with permission from their respective rights holders."
+          },
+          {
+            "type": "paragraph",
+            "text": "This includes the Adapt name, logos, trademarks, visual identity, written content, photographs, illustrations, graphic elements, designs, layouts, videos and other creative materials."
+          },
+          {
+            "type": "paragraph",
+            "text": "You may access and view website content for personal, non-commercial and informational purposes."
+          },
+          {
+            "type": "paragraph",
+            "text": "Except where permitted by law or expressly authorised in writing, you must not reproduce, republish, distribute, modify, adapt, publicly display, commercially exploit or create derivative works from any protected website material."
+          },
+          {
+            "type": "paragraph",
+            "text": "Downloading or printing material for personal reference does not transfer ownership of the material or grant permission for commercial reuse."
+          },
+          {
+            "type": "paragraph",
+            "text": "Any request to use Adapt Resorts' name, photographs, logos or other brand assets for editorial, commercial, promotional or other purposes should be directed to us for prior written permission."
+          }
+        ]
+      },
+      {
+        "title": "User Submissions and Communications",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Visitors may be able to submit enquiries, feedback, comments, reviews or other information through forms and communication channels provided on the website."
+          },
+          {
+            "type": "paragraph",
+            "text": "You are responsible for ensuring that information you submit is accurate, lawful and appropriate for the purpose of the relevant communication."
+          },
+          {
+            "type": "paragraph",
+            "text": "You must not submit content that is unlawful, threatening, abusive, defamatory, misleading, discriminatory, fraudulent or otherwise harmful to individuals or organisations."
+          },
+          {
+            "type": "paragraph",
+            "text": "You must not submit material that infringes another person's intellectual property, privacy, confidentiality or other legal rights."
+          },
+          {
+            "type": "paragraph",
+            "text": "You should not submit passwords, payment card security codes, confidential credentials or other highly sensitive information through general enquiry forms or unsecured communication channels."
+          },
+          {
+            "type": "paragraph",
+            "text": "Submitting information through our website does not automatically grant us ownership of any intellectual property contained in that information. However, we may use the information for the purpose of responding to your communication, administering our services and handling the submission in accordance with our Privacy Policy and applicable law."
+          }
+        ]
+      },
+      {
+        "title": "Third-Party Links and External Services",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Our website may contain links to third-party websites, booking platforms, social media services, maps, payment providers and other external resources."
+          },
+          {
+            "type": "paragraph",
+            "text": "These links are provided for convenience, information or access to services that may be relevant to visitors."
+          },
+          {
+            "type": "paragraph",
+            "text": "External websites and services are operated independently and may be governed by their own terms, privacy policies and service conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "Unless expressly stated otherwise, we do not control or guarantee the accuracy, availability, security or content of external websites and services."
+          },
+          {
+            "type": "paragraph",
+            "text": "Your decision to access or use an external service is made at your own discretion and may be subject to additional terms imposed by its operator."
+          }
+        ]
+      },
+      {
+        "title": "Website Availability and Maintenance",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We aim to keep our website accessible and operational. However, we do not guarantee that it will always be available, uninterrupted, error-free or compatible with every device, browser or operating environment."
+          },
+          {
+            "type": "paragraph",
+            "text": "Access may occasionally be interrupted, delayed, restricted or unavailable due to maintenance, technical difficulties, security measures, infrastructure failures, internet connectivity issues or circumstances beyond our reasonable control."
+          },
+          {
+            "type": "paragraph",
+            "text": "We may modify, suspend, restrict or discontinue any part of the website or its functionality where reasonably necessary for maintenance, security, operational improvements or business requirements."
+          },
+          {
+            "type": "paragraph",
+            "text": "We will make reasonable efforts to address significant technical issues, but we are not responsible for temporary interruptions that are beyond our reasonable control."
+          }
+        ]
+      },
+      {
+        "title": "Website Security",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We take reasonable steps to maintain the security and integrity of our website and associated systems."
+          },
+          {
+            "type": "paragraph",
+            "text": "However, visitors are also responsible for taking appropriate precautions when accessing online services, including maintaining updated devices and software and using secure internet connections."
+          },
+          {
+            "type": "paragraph",
+            "text": "You must not attempt to bypass security controls, interfere with authentication systems, introduce malicious code or access information that has not been made available to you."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you become aware of a suspected vulnerability, security issue or unauthorised access involving our website, please notify us through our official contact channels and avoid exploiting or publicly disclosing the issue before we have had a reasonable opportunity to investigate."
+          }
+        ]
+      },
+      {
+        "title": "Disclaimer",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "This website and its general content are provided on an as-available basis for informational and promotional purposes."
+          },
+          {
+            "type": "paragraph",
+            "text": "To the extent permitted by applicable law, we make no representation or warranty that all website information will be complete, accurate, current, uninterrupted or free from errors."
+          },
+          {
+            "type": "paragraph",
+            "text": "Website content should not be treated as a substitute for direct confirmation of accommodation availability, rates, property facilities, reservation conditions or other arrangements that may affect your visit."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nothing in these Terms excludes or limits a representation, warranty or obligation that cannot lawfully be excluded or limited."
+          }
+        ]
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "To the extent permitted by applicable law, Adapt Resorts will not be liable for indirect, incidental, special or consequential losses arising solely from your access to or inability to use this website."
+          },
+          {
+            "type": "paragraph",
+            "text": "This may include loss of data, loss of business opportunity, loss of anticipated savings or other indirect losses resulting from website interruptions, technical errors or reliance on general website information."
+          },
+          {
+            "type": "paragraph",
+            "text": "We are not responsible for failures or disruptions caused by third-party websites, internet service providers, telecommunications networks, external platforms or circumstances beyond our reasonable control."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nothing in these Terms excludes or limits liability for fraud, fraudulent misrepresentation, death or personal injury caused by negligence, or any other liability that cannot lawfully be excluded or limited under applicable law."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where liability cannot be excluded, it will be limited only to the extent permitted by applicable law."
+          }
+        ]
+      },
+      {
+        "title": "Indemnity",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "To the extent permitted by applicable law, you may be responsible for losses, liabilities, damages and reasonable costs directly arising from your unlawful use of the website, deliberate misuse of its functionality or infringement of the rights of another person."
+          },
+          {
+            "type": "paragraph",
+            "text": "This provision does not apply to the extent that a loss results from our own breach of law, negligence or other conduct for which we cannot lawfully exclude responsibility."
+          }
+        ]
+      },
+      {
+        "title": "Suspension and Restriction of Access",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We reserve the right to restrict, suspend or terminate access to all or part of the website where reasonably necessary to protect its security, maintain its operation, enforce these Terms or comply with legal obligations."
+          },
+          {
+            "type": "paragraph",
+            "text": "Such action may be taken where we reasonably believe that a visitor has engaged in unauthorised access, fraudulent activity, malicious conduct or another activity that may harm our website, services or users."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where appropriate and reasonably practicable, we may provide notice of significant restrictions. However, immediate action may be necessary where security, legal or operational circumstances require it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Restricting access to the website does not automatically cancel a confirmed reservation or override the rights and obligations established under a separate booking agreement."
+          }
+        ]
+      },
+      {
+        "title": "Privacy and Personal Information",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Your use of this website may involve the collection and processing of personal information, including information submitted through enquiry forms, reservation requests and other digital interactions."
+          },
+          {
+            "type": "paragraph",
+            "text": "The way we collect, use, store, disclose and protect personal information is explained in our Privacy Policy."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where our website uses cookies or similar technologies, their use will be subject to applicable consent requirements and the information provided through our cookie settings or relevant privacy notices."
+          },
+          {
+            "type": "paragraph",
+            "text": "We encourage you to review our Privacy Policy before submitting personal information through the website."
+          }
+        ]
+      },
+      {
+        "title": "Changes to These Terms",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "We may revise these Site Usage Terms from time to time to reflect changes in our website, services, business operations, technology or legal obligations."
+          },
+          {
+            "type": "paragraph",
+            "text": "Any revised version will be published on this page with an updated Last Updated date."
+          },
+          {
+            "type": "paragraph",
+            "text": "Where a material change requires additional notice under applicable law, we will take reasonable steps to provide it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Your continued use of the website after revised Terms have been published will be subject to the updated Terms, to the extent permitted by applicable law."
+          }
+        ]
+      },
+      {
+        "title": "Governing Law and Jurisdiction",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "These Site Usage Terms are governed by the laws of the Federal Republic of Nigeria, subject to any mandatory legal protections that apply to you under applicable law."
+          },
+          {
+            "type": "paragraph",
+            "text": "Any dispute arising from or relating to your use of this website will be subject to the jurisdiction of the competent courts of Nigeria, subject to applicable rules concerning jurisdiction and mandatory consumer protections."
+          },
+          {
+            "type": "paragraph",
+            "text": "Nothing in this section prevents either party from seeking appropriate legal remedies or protections available under applicable law."
+          }
+        ]
+      },
+      {
+        "title": "Severability",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "If any provision of these Terms is found to be unlawful, invalid or unenforceable by a competent authority, that provision will be interpreted or limited to the minimum extent necessary to make it enforceable, where legally possible."
+          },
+          {
+            "type": "paragraph",
+            "text": "If it cannot be made enforceable, the affected provision will be treated as separate from the remaining Terms, which will continue to apply to the extent permitted by law."
+          }
+        ]
+      },
+      {
+        "title": "No Waiver",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "If we do not exercise or enforce a right or provision under these Terms immediately, this does not mean that we have waived that right or provision."
+          },
+          {
+            "type": "paragraph",
+            "text": "Any waiver must be expressly communicated and will apply only to the specific circumstances for which it is given, subject to applicable law."
+          }
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "If you have questions about these Site Usage Terms, experience a problem while using our website or wish to report suspected misuse, you may contact Adapt Resorts through the details below."
+          },
+          {
+            "type": "details",
+            "items": [
+              {
+                "label": "Organisation:",
+                "value": "Adapt Resorts"
+              },
+              {
+                "label": "Registered office:",
+                "value": "No. 1234 Adapt Avenue, Adapt Street, Akwa Ibom State, Nigeria"
+              },
+              {
+                "label": "Country:",
+                "value": "Nigeria"
+              },
+              {
+                "label": "Contact email:",
+                "value": "[Insert official contact email]"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "For enquiries relating specifically to website access or these Terms, please include Site Usage Enquiry in the subject of your communication."
+          }
+        ]
+      }
+    ]
+  },
+  "FAQs": {
+    "page-title": "FAQs",
+    "contact-title": "Still Have a Question?",
+    "contact-text": "If you have questions about our services and offers, you may contact Adapt Resorts through the details below:",
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know before your stay. Explore our answers to common questions about reservations, accommodation, experiences and the details that make your visit special.",
+    "searchPlaceholder": "What would you like to know?",
+    "allLabel": "All Questions",
+    "questionCountLabel": "questions",
+    "resultsLabel": "results found",
+    "clearSearchLabel": "Clear search",
+    "viewAllLabel": "View all questions",
+    "emptyTitle": "Nothing found",
+    "emptyDescription": "We couldn't find an answer matching your search. Try another keyword or explore all our questions.",
+    "categories": [
+      {
+        "title": "Reservations & Bookings",
+        "questions": [
+          {
+            "question": "How can I make a reservation?",
+            "answer": "You can make a reservation by visiting our Reservations page and submitting your preferred accommodation, travel dates and guest details. You may also contact our reservations team directly for assistance. A booking is considered confirmed once you receive the applicable confirmation."
+          },
+          {
+            "question": "Can I make a reservation by phone or email?",
+            "answer": "Yes. You may contact our team through the official contact details provided on our website to discuss availability and reservation arrangements. Our team will guide you through the available booking options."
+          },
+          {
+            "question": "How will I know if my reservation is confirmed?",
+            "answer": "Once your reservation has been successfully processed, you will receive a confirmation through the contact channel associated with your booking. This will contain the relevant reservation details and any applicable instructions."
+          },
+          {
+            "question": "Can I modify an existing reservation?",
+            "answer": "Requests to modify a reservation may be subject to availability, rate conditions and the terms applicable to your original booking. Please contact our reservations team with your booking reference and requested changes."
+          },
+          {
+            "question": "Can I cancel my reservation?",
+            "answer": "Cancellation conditions depend on the accommodation, rate plan and booking arrangement selected. Please review the cancellation terms provided during your reservation or in your booking confirmation before requesting a cancellation."
+          },
+          {
+            "question": "Is an advance payment required?",
+            "answer": "Payment and deposit requirements may vary depending on the property, accommodation type and reservation conditions. Any required deposit, advance payment or payment deadline will be communicated during the booking process."
+          }
+        ]
+      },
+      {
+        "title": "Accommodation & Stay",
+        "questions": [
+          {
+            "question": "What types of accommodation do you offer?",
+            "answer": "Adapt Resorts offers hospitality experiences centred around thoughtfully considered accommodation and the character of each destination. Available accommodation types and their individual features are presented on our Accommodations page."
+          },
+          {
+            "question": "What time can I check in and check out?",
+            "answer": "Check-in and check-out times may vary by property. The applicable times will be communicated as part of your reservation information. If you require an early arrival or late departure, please contact the relevant property in advance. Such requests are subject to availability and may attract additional charges."
+          },
+          {
+            "question": "Can I request an early check-in or late check-out?",
+            "answer": "Yes. You may submit an early check-in or late check-out request before your arrival. These arrangements are subject to room availability and the operating requirements of the property, and cannot be guaranteed until confirmed by our team."
+          },
+          {
+            "question": "Can I request a particular room or accommodation?",
+            "answer": "You may communicate your preferred accommodation type or room requirements when making your reservation. We will make reasonable efforts to accommodate your preferences, subject to availability and the applicable booking conditions."
+          },
+          {
+            "question": "Can I arrange a stay for a special occasion?",
+            "answer": "We welcome enquiries about special occasions, celebrations and memorable guest experiences. Please contact our team with details of your occasion and any arrangements you have in mind so that we can advise on the available options."
+          },
+          {
+            "question": "Are children welcome at Adapt Resorts?",
+            "answer": "Guest arrangements and age-related conditions may vary by property and accommodation type. Please contact the relevant property before booking so that we can clarify its family accommodation options and any applicable requirements."
+          }
+        ]
+      },
+      {
+        "title": "Experiences & Facilities",
+        "questions": [
+          {
+            "question": "What experiences can I enjoy during my stay?",
+            "answer": "Our experiences are designed to help guests connect with the surrounding landscape, local culture and character of each destination. Available activities and experiences may vary by property and season. Explore our Experiences page or contact our team for current information."
+          },
+          {
+            "question": "Do I need to book experiences in advance?",
+            "answer": "Some experiences may require advance reservations, while others may depend on availability during your stay. We recommend enquiring ahead of your visit, particularly if you have a specific activity or date in mind."
+          },
+          {
+            "question": "Are dining arrangements available?",
+            "answer": "Dining options and arrangements may vary depending on the property. Please consult the relevant accommodation information or contact our team for details about available dining services, menus and reservation requirements."
+          },
+          {
+            "question": "Can you accommodate dietary requirements?",
+            "answer": "You may communicate dietary preferences, allergies or other food-related requirements when making your reservation or contacting our team. Please provide this information as early as possible so that the relevant property can advise on available arrangements."
+          },
+          {
+            "question": "Are facilities and activities available throughout the year?",
+            "answer": "Some facilities and experiences may be affected by seasonality, weather, maintenance or operational conditions. Availability should be confirmed with the relevant property before your visit."
+          },
+          {
+            "question": "Can I arrange a private event or celebration?",
+            "answer": "For enquiries about private gatherings, celebrations, retreats or other events, please contact our team with your preferred dates, estimated guest numbers and requirements. Available arrangements will depend on the property and event facilities."
+          }
+        ]
+      },
+      {
+        "title": "Payments & Policies",
+        "questions": [
+          {
+            "question": "Which payment methods do you accept?",
+            "answer": "Available payment methods will be communicated during the reservation process or by our reservations team. Accepted options may depend on the property, booking channel and payment arrangements."
+          },
+          {
+            "question": "Are taxes and additional charges included in the displayed rates?",
+            "answer": "The treatment of taxes, levies, service charges and additional fees may vary by reservation. Please review the price breakdown and applicable conditions presented during booking before completing your reservation."
+          },
+          {
+            "question": "Will I receive a receipt or invoice?",
+            "answer": "Payment confirmations and relevant transaction documentation may be provided following a successful payment. If you require a formal invoice or additional documentation, please contact our team with your reservation details."
+          },
+          {
+            "question": "What happens if I need to request a refund?",
+            "answer": "Refund eligibility is determined by the cancellation, payment and rate conditions applicable to your reservation. Please contact our team with your booking reference so that your request can be reviewed."
+          },
+          {
+            "question": "Do you have a policy for pets?",
+            "answer": "Pet accommodation arrangements may differ between properties. Please contact the relevant property before making a reservation to confirm whether pets are permitted and whether any additional conditions apply."
+          }
+        ]
+      },
+      {
+        "title": "Before Your Visit",
+        "questions": [
+          {
+            "question": "Where can I find directions to the property?",
+            "answer": "Property addresses and relevant location information are available through our website and reservation communications. If you need additional directions or assistance planning your arrival, please contact our team."
+          },
+          {
+            "question": "Can you assist with airport transfers or transportation?",
+            "answer": "Transportation arrangements may be available depending on the property and destination. Please enquire before your arrival to confirm available options, applicable charges and any advance booking requirements."
+          },
+          {
+            "question": "What should I bring for my stay?",
+            "answer": "What you need may depend on the destination, season and experiences you intend to enjoy. Your reservation information and our team can provide relevant guidance about your visit and any specific preparations."
+          },
+          {
+            "question": "What if I have accessibility requirements?",
+            "answer": "We encourage guests with accessibility requirements to contact the relevant property before booking. Our team can provide information about available facilities and discuss arrangements based on your individual needs."
+          },
+          {
+            "question": "How can I contact Adapt Resorts if I need assistance?",
+            "answer": "You can reach our team through the Contact page on our website or the official contact information provided in your reservation confirmation. We will direct your enquiry to the appropriate team."
+          }
+        ]
+      }
+    ]
   }
 }
