@@ -60,22 +60,50 @@
       "per-night": "Per Night",
       "guests": "Guests",
       "beds": "Beds",
+      "bathrooms": "Bathrooms",
+      "included": "Included",
+      "not-included": "Not Included",
+      "breakfast": "Breakfast",
+
+      "wifi": "WiFi",
+      "wifi-icon": "ic:baseline-wifi",
+      "heathen": "Heathen",
+      "heathen-icon": "ic:baseline-thermostat",
+      "coffee": "Coffe",
+      "coffee-icon": "ic:outline-coffee-maker",
+      "tv": "TV",
+      "tv-icon": "ic:outline-tv",
+      "laundry-service":"Laundry Service",
+      "laundry-service-icon":"ic:outline-local-laundry-service",
+      "mini-bar": "Mini Bar",
+      "mini-bar-icon": "ic:outline-wine-bar",
+      "spa": "SPA",
+      "spa-icon": "ic:outline-spa",
+      "business-center": "Business Center",
+      "business-center-icon": "ic:outline-business-center",
+      "gym": "GYM",
+      "gym-icon": "ic:outline-fitness-center",
+
       "rooms": {
         "premium-deluxe": "Premium Deluxe Room",
         "premium-deluxe-description": "An elegant retreat designed for effortless relaxation. Enjoy beautifully appointed interiors, generous amenities, and refined comfort in a space that makes every moment of your stay special.",
         "premium-deluxe-price": "₦200,000",
+        "premium-deluxe-breakfast": "included",
 
         "executive-suite": "Executive Suite",
         "executive-suite-description": "Experience elevated comfort in our sophisticated executive suite. Generous living spaces, tasteful interiors, and thoughtful amenities come together to create a truly distinguished stay.",
         "executive-suite-price": "₦350,000",
+        "executive-suite-breakfast": "included",
 
         "presidential-villa": "Presidential Villa",
         "presidential-villa-description": "Discover the privilege of space and privacy in our exclusive presidential villa. Featuring expansive living areas, elegant furnishings, and exceptional comfort, it is an ideal retreat for an extraordinary getaway.",
         "presidential-villa-price": "₦650,000",
+        "presidential-villa-breakfast": "included",
 
         "celebrity-suit": "Celebrity Suite",
         "celebrity-suit-description": "Step into an exceptional world of comfort and exclusivity. With spacious interiors, sophisticated furnishings, and carefully considered details, the Celebrity Suite offers a memorable experience in refined luxury.",
-        "celebrity-suit-price": "₦960,000"
+        "celebrity-suit-price": "₦960,000",
+        "celebrity-suit-breakfast": "included"
       }
     }
   },
@@ -141,6 +169,17 @@
     "status": "In Progress",
     "coming-soon": "Something Extraordinary Is Coming",
     "return-home": "Return to Homepage"
+  },
+  "Reservations": {
+    "roomForm": {
+      "title": "Reserve Room",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "guestsLabel": "Number of Guests",
+      "guestCount": "{count, plural, one {# Guest} other {# Guests}}",
+      "removeGuest": "Remove one guest",
+      "addGuest": "Add one guest"
+    }
   },
   "LegalNotice": {
       "title": "Legal Notice",

@@ -1,7 +1,8 @@
 "use client";
 
-import Wrapper from "../Wrapper";
 import { motion, useReducedMotion } from "motion/react";
+
+import Wrapper from "../Wrapper";
 
 const AccommodationsHero = () => {
   const shouldReduceMotion = useReducedMotion();

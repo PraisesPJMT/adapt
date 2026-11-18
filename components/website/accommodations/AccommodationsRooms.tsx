@@ -2,10 +2,10 @@
 
 import Wrapper from "../Wrapper";
 
-import { rooms } from "../../../lib/data";
-import { useTranslations } from "next-intl";
 import { Icon } from "@iconify/react";
 import { Link } from "@/i18n/navigation";
+import { rooms } from "../../../lib/data";
+import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "motion/react";
 
 const AccommodationsRooms = () => {
