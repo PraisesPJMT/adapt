@@ -341,9 +341,11 @@ const AccommodationsRoomHero = ({
                 {/* Booking Button */}
                 <motion.button
                   type="submit"
+                  disabled
+                  title="Coming Soon"
                   whileHover={shouldReduceMotion ? {} : { y: -2 }}
                   whileTap={shouldReduceMotion ? {} : { scale: 0.98 }}
-                  className="group mt-6 inline-flex min-h-12 w-full items-center justify-center gap-4 border border-primary bg-primary px-6 py-4 text-center text-xs uppercase tracking-[0.15em] text-shell transition-colors duration-500 hover:bg-transparent hover:text-primary"
+                  className="group mt-6 inline-flex min-h-12 w-full items-center justify-center gap-4 border border-primary bg-primary px-6 py-4 text-center text-xs uppercase tracking-[0.15em] text-shell transition-colors duration-500 hover:bg-transparent hover:text-primary disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <span>{button("book-room")}</span>
 
