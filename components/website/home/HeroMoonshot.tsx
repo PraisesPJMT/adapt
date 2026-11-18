@@ -123,10 +123,10 @@ const HeroMoonshot = () => {
             className="mt-8"
           >
             <Link
-              href="/accommodations"
+              href="/experience"
               className="group inline-flex min-h-12 items-center justify-center gap-4 border border-primary bg-transparent px-6 py-3 text-center text-xs uppercase tracking-[0.15em] text-primary transition-all duration-500 hover:bg-primary hover:text-shell sm:px-8 sm:text-sm"
             >
-              <span>{button("browse-rooms")}</span>
+              <span>{button("explore-experience")}</span>
 
               <span className="transition-transform duration-300 group-hover:translate-x-1">
                 →

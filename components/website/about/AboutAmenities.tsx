@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "motion/react";
 
 import Wrapper from "../Wrapper";
+import { Link } from "@/i18n/navigation";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -17,7 +18,10 @@ const images = [
 
 const AboutAmenities = () => {
   const amenities = useTranslations("About.amenities");
+  const button = useTranslations("Buttons");
   const shouldReduceMotion = useReducedMotion();
+
+  const smoothEase = [0.22, 1, 0.36, 1] as const;
 
   return (
     <section className="relative isolate overflow-hidden bg-shell py-16 sm:py-24 lg:py-32">
@@ -115,6 +119,30 @@ const AboutAmenities = () => {
             <p className="mt-5 max-w-xl text-sm leading-7 text-primary/70 sm:text-base sm:leading-8">
               {amenities("description")}
             </p>
+
+            {/* CTA */}
+            <motion.div
+              initial={shouldReduceMotion ? false : { opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: shouldReduceMotion ? 0 : 0.8,
+                delay: shouldReduceMotion ? 0 : 0.65,
+                ease: smoothEase,
+              }}
+              className="mt-8"
+            >
+              <Link
+                href="/experience"
+                className="group inline-flex min-h-12 items-center justify-center gap-4 border border-primary bg-transparent px-6 py-3 text-center text-xs uppercase tracking-[0.15em] text-primary transition-all duration-500 hover:bg-primary hover:text-shell sm:px-8 sm:text-sm"
+              >
+                <span>{button("explore-experience")}</span>
+  
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </Link>
+            </motion.div>
           </motion.div>
 
         </div>
