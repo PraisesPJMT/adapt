@@ -1,23 +1,21 @@
-"use client"
-
-import { useTranslations } from "next-intl";
-
-import Wrapper from "@/components/website/Wrapper";
-import UnderConstruction from "@/components/website/UnderConstruction";
+import Reachout from "@/components/website/legals/Reachout";
+import ExperienceHero from "@/components/website/experience/ExperienceHero";
+import ExperienceIntro from "@/components/website/experience/ExperienceIntro";
+import ExperienceMeals from "@/components/website/experience/ExperienceMeals";
+import ExperienceMoonshot from "@/components/website/experience/ExperienceMoonshot";
 
 const Experience = () => {
-  const t = useTranslations("Navigation");
 
   return <div className="">
-    <section className="min-h-[20svh] flex items-end">
-      <Wrapper>
-        <h1 className="font-display text-5xl text-mangrove">
-          {t("experience")}
-        </h1>
-      </Wrapper>
-    </section>
+    <ExperienceHero />
 
-    <UnderConstruction />
+    <ExperienceIntro />
+
+    <ExperienceMeals />
+
+    <ExperienceMoonshot />
+
+    <Reachout />
   </div>
 }
 

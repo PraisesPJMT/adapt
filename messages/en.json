@@ -125,6 +125,145 @@
       "description": "Enjoy the perfect balance of comfort, convenience, and thoughtful hospitality. Our carefully selected amenities are designed to make every part of your stay effortless, giving you more time to relax, explore, and enjoy everything the resort has to offer."
     }
   },
+  "Experience": {
+    "hero": {
+      "title": "Experiences Beyond the Ordinary",
+      "description": "Discover a world of moments worth experiencing. Whether you're seeking relaxation, adventure, or meaningful time with the people who matter, every experience at Adapt Resorts is an invitation to make your stay truly unforgettable."
+    },
+    "intro": {
+      "title": "Moments Made to Be Experienced",
+      "description": "From peaceful escapes to exciting activities, discover experiences thoughtfully curated to suit every mood and occasion. Whether enjoyed alone or shared with loved ones, there's always something special waiting for you."
+    },
+    "closing": {
+      "title": "Make Every Moment Count",
+      "description": "The best memories often come from the simplest moments. Take your time, explore something new, indulge in the little pleasures, and make the most of everything our resort has to offer."
+    },
+    "meals": {
+      "title": "A Taste of Something Special",
+      "description": "Good food has a way of bringing people together. From familiar Nigerian favourites to thoughtfully prepared international classics, enjoy a selection of dishes made to make every meal a memorable part of your stay.",
+      "tabLabel": "Select a meal",
+      "footer": "GOOD FOOD · GOOD COMPANY · MEMORABLE MOMENTS",
+      "tabs": [
+        {
+          "id": "breakfast",
+          "title": "Breakfast",
+          "time": "8:30 AM – 11:00 AM",
+          "foods": [
+            {
+              "name": "Nigerian Breakfast Platter",
+              "description": "A satisfying combination of fried eggs, sausages, baked beans, toast and fresh vegetables."
+            },
+            {
+              "name": "Yam and Egg Sauce",
+              "description": "Soft-boiled or fried yam served with a rich, freshly prepared tomato and pepper egg sauce."
+            },
+            {
+              "name": "Akara and Pap",
+              "description": "Golden bean fritters paired with smooth, warm Nigerian pap."
+            },
+            {
+              "name": "Moi Moi",
+              "description": "Steamed bean pudding prepared with peppers and a delicate blend of traditional seasonings."
+            },
+            {
+              "name": "Pancakes and Maple Syrup",
+              "description": "Fluffy pancakes served with maple syrup, butter and fresh seasonal fruit."
+            },
+            {
+              "name": "French Toast",
+              "description": "Golden slices of egg-dipped bread served with syrup and fresh fruit."
+            },
+            {
+              "name": "English Breakfast",
+              "description": "Eggs, grilled sausages, sautéed mushrooms, baked beans, tomatoes and toast."
+            },
+            {
+              "name": "Fresh Fruit and Yoghurt Bowl",
+              "description": "A refreshing selection of seasonal fruits served with creamy yoghurt and crunchy granola."
+            }
+          ]
+        },
+        {
+          "id": "lunch",
+          "title": "Lunch",
+          "time": "12:00 PM – 2:30 PM",
+          "foods": [
+            {
+              "name": "Jollof Rice and Grilled Chicken",
+              "description": "Classic Nigerian party-style jollof served with succulent grilled chicken and fried plantain."
+            },
+            {
+              "name": "Ofada Rice and Ayamase",
+              "description": "Locally grown rice served with rich green pepper sauce and assorted meats."
+            },
+            {
+              "name": "Fried Rice and Grilled Fish",
+              "description": "Colourful Nigerian-style fried rice accompanied by seasoned grilled fish."
+            },
+            {
+              "name": "Egusi Soup and Pounded Yam",
+              "description": "A hearty traditional melon-seed soup with leafy vegetables, assorted meats and smooth pounded yam."
+            },
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "description": "Crisp lettuce, grilled chicken, parmesan, croutons and classic Caesar dressing."
+            },
+            {
+              "name": "Beef Burger and Fries",
+              "description": "A juicy beef patty layered with fresh vegetables and served with golden fries."
+            },
+            {
+              "name": "Spaghetti Bolognese",
+              "description": "Pasta served with a slow-cooked minced beef and tomato sauce."
+            },
+            {
+              "name": "Grilled Fish and Chips",
+              "description": "Seasoned fish served with crisp fries, fresh salad and a light tartar sauce."
+            }
+          ]
+        },
+        {
+          "id": "dinner",
+          "title": "Dinner",
+          "time": "7:00 PM – 10:00 PM",
+          "foods": [
+            {
+              "name": "Nigerian Pepper Soup",
+              "description": "A warming, aromatic broth prepared with traditional spices and your choice of fish or assorted meats."
+            },
+            {
+              "name": "Native Rice",
+              "description": "A richly seasoned Nigerian rice dish prepared with palm oil, seafood and traditional spices."
+            },
+            {
+              "name": "Catfish and Plantain",
+              "description": "Fresh catfish prepared in a spicy sauce and served with sweet fried plantain."
+            },
+            {
+              "name": "Efo Riro and Swallow",
+              "description": "Rich Yoruba-style spinach stew with assorted meats, served with your choice of swallow."
+            },
+            {
+              "name": "Grilled Salmon",
+              "description": "Delicately seasoned salmon fillet served with roasted vegetables and a light lemon butter sauce."
+            },
+            {
+              "name": "Creamy Alfredo Pasta",
+              "description": "Tender pasta coated in a smooth parmesan cream sauce with herbs and grilled chicken."
+            },
+            {
+              "name": "Beef Steak",
+              "description": "A tender grilled beef steak served with mashed potatoes, seasonal vegetables and a savoury sauce."
+            },
+            {
+              "name": "Roasted Chicken",
+              "description": "Herb-seasoned roasted chicken served with buttery potatoes and fresh garden vegetables."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "Contact": {
     "address": "No. 1234 Adapt Resort Avenue, British Street, Akwa Ibom State, Nigeria",
     "tel": "+2348012345678",
