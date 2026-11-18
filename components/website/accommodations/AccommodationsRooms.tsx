@@ -149,9 +149,12 @@ const AccommodationsRooms = () => {
                     <span>{button("see-room")}</span>
                   </Link>
 
-                  <Link
-                    href={`/reservations?room=${room.id}`}
-                    className="group inline-flex min-h-12 w-full items-center justify-center gap-4 border border-primary bg-primary px-6 py-4 text-center text-xs uppercase tracking-[0.15em] text-shell transition-all duration-500 hover:bg-transparent hover:text-primary sm:w-fit sm:px-8"
+                  <button
+                    type="button"
+                    disabled
+                    title="Comming soon"
+                    // href={`/reservations?room=${room.id}`}
+                    className="group inline-flex min-h-12 w-full items-center justify-center gap-4 border border-primary bg-primary px-6 py-4 text-center text-xs uppercase tracking-[0.15em] text-shell transition-all duration-500 hover:bg-transparent hover:text-primary sm:w-fit sm:px-8 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <span>{button("book-room")}</span>
 
@@ -163,7 +166,7 @@ const AccommodationsRooms = () => {
                     >
                       →
                     </motion.span>
-                  </Link>
+                  </button>
                 </div>
 
                 {/* Corner Decoration */}
