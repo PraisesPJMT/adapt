@@ -1,23 +1,19 @@
 "use client"
 
-import { useTranslations } from "next-intl";
-
-import Wrapper from "@/components/website/Wrapper";
-import UnderConstruction from "@/components/website/UnderConstruction";
+import AboutAmenities from "@/components/website/about/AboutAmenities";
+import AboutHero from "@/components/website/about/AboutHero";
+import AboutReconnect from "@/components/website/about/AboutReconnect";
+import Reachout from "@/components/website/legals/Reachout";
 
 const About = () => {
-  const t = useTranslations("Navigation");
-
   return <div className="">
-    <section className="min-h-[20svh] flex items-end">
-      <Wrapper>
-        <h1 className="font-display text-5xl text-mangrove">
-          {t("about")}
-        </h1>
-      </Wrapper>
-    </section>
+    <AboutHero />
 
-    <UnderConstruction />
+    <AboutReconnect />
+
+    <AboutAmenities />
+
+    <Reachout position="left" />
   </div>
 }
 

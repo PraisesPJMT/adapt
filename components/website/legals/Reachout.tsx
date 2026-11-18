@@ -10,11 +10,11 @@ import { Icon } from "@iconify/react";
 const Reachout = ({
   position = "right",
   title = "Contact",
-  text = "Please reach out to us to know more about this:"
+  text = "Please reach out to us to know more about our services, accommodations and amenities:"
 }: {
     position?: "left" | "right";
-    title: string,
-    text: string
+    title?: string,
+    text?: string
 }) => {
   const button = useTranslations("Buttons");
   const contact = useTranslations("Contact");

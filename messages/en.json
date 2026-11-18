@@ -107,6 +107,24 @@
       }
     }
   },
+  "About": {
+    "hero": {
+      "title": "About Us",
+      "description": "At Adapt Resorts, we believe every getaway should be more than just a change of scenery. It should be an opportunity to slow down, find inspiration, and create meaningful moments. Thoughtfully designed around comfort, connection, and discovery, our resort offers a welcoming escape where every detail is shaped to make your stay truly memorable."
+    },
+    "reconnect": {
+      "title": "A place carefully designed to help you reconnect",
+      "description": "Step away from the demands of everyday life and embrace a space where you can truly unwind. From thoughtfully curated spaces to peaceful surroundings, every element invites you to reconnect with yourself, the people you love, and the moments that matter most."
+    },
+    "experiences": {
+      "title": "Tens of experiences to enjoy alone or together",
+      "description": "Whether you are seeking a quiet moment to yourself or an adventure to share, there is always something to discover. Explore a variety of experiences designed to bring joy, inspire curiosity, and turn simple moments into lasting memories, whatever your idea of a perfect getaway may be."
+    },
+    "amenities": {
+      "title": "Amenities to help you enjoy like never before",
+      "description": "Enjoy the perfect balance of comfort, convenience, and thoughtful hospitality. Our carefully selected amenities are designed to make every part of your stay effortless, giving you more time to relax, explore, and enjoy everything the resort has to offer."
+    }
+  },
   "Contact": {
     "address": "No. 1234 Adapt Resort Avenue, British Street, Akwa Ibom State, Nigeria",
     "tel": "+2348012345678",
